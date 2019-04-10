@@ -1,6 +1,7 @@
 package factory;
 
 import domain.Booking;
+import domain.Staff;
 import org.junit.Assert;
 import org.junit.Test;
 import java.util.Calendar;
@@ -17,5 +18,12 @@ public class BookingFactoryTest {
         System.out.println("Booking date is: "+booking.getDate());
         Assert.assertEquals(10/04/2019,10/04/2019);
 
+    }
+    @Test
+    public void getStaff() {
+        int staffNumber = 211210471;
+        Staff staff = BookingFactory.getStaff("Masivuye",staffNumber);
+        Assert.assertEquals(211210471,staffNumber);
+        System.out.print(staff.getStaffNumber());
     }
 }

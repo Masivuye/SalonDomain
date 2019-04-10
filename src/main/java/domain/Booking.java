@@ -7,6 +7,8 @@ import java.util.Date;
 public class Booking {
     private Date date;
     private int bookingNumber;
+    private Customer customer;
+    private Staff staff;
 
     private Booking(){}
 
