@@ -7,6 +7,8 @@ public class Customer {
     private int custNumber;
 
     private Set<Booking> booking;
+    private Set<HairStyle> hairStyles;
+    private Set<Manicure> manicures;
 
     private Customer() {
     }
@@ -27,7 +29,7 @@ public class Customer {
     public static class Builder {
         private String name;
         private int custNumber;
-        private Set<Booking> booking;
+
 
         public Builder name(String name) {
             this.name = name;
