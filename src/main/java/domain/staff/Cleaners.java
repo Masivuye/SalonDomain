@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class Cleaners {
     private String name;
-    private int Adnum;
+    private int clnNum;
 
     private Set<Staff> staff;
 
@@ -15,20 +15,20 @@ public class Cleaners {
 
     private Cleaners(Builder builder) {
         this.name = builder.name;
-        this.Adnum = builder.Adnum;
+        this.clnNum = builder.clnNum;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getAdnum() {
-        return Adnum;
+    public int getClnNum() {
+        return clnNum;
     }
 
     public static class Builder {
         private String name;
-        private int Adnum;
+        private int clnNum;
 
 
         public Builder name(String name) {
@@ -36,8 +36,8 @@ public class Cleaners {
             return this;
         }
 
-        public Builder Adnum(int Adnum) {
-            this.Adnum = Adnum;
+        public Builder clnNum(int clnNum) {
+            this.clnNum = clnNum;
             return this;
         }
 
@@ -50,7 +50,7 @@ public class Cleaners {
     public String toString() {
         return "Cleaners{" +
                 "name='" + name + '\'' +
-                ", Adnum=" + Adnum +
+                ", Adnum=" + clnNum +
                 '}';
     }
 }

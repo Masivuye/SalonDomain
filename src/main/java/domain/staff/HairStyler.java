@@ -36,7 +36,7 @@ public class HairStyler {
             return this;
         }
 
-        public Builder Adnum(int stylnum) {
+        public Builder stylnum(int stylnum) {
             this.stylnum = stylnum;
             return this;
         }

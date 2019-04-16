@@ -3,7 +3,7 @@ package domain.payment;
 import java.util.Set;
 
 public class CashPayment {
-    private double balance;
+    private double amount;
 
 
     private Set<Payment> payments;
@@ -13,24 +13,24 @@ public class CashPayment {
     }
 
     private CashPayment(Builder builder) {
-        this.balance = builder.balance;
+        this.amount = builder.amount;
 
     }
 
-    public double getBalance(double balance){
+    public double getAmount(double amount){
 
-        return balance;
+        return amount;
     }
 
 
 
     public static class Builder {
-        private double balance;
+        private double amount;
 
 
 
-        public Builder balance(double balance) {
-            this.balance = balance;
+        public Builder amount(double amount) {
+            this.amount = amount;
             return this;
         }
 
@@ -43,7 +43,7 @@ public class CashPayment {
     @Override
     public String toString() {
         return "CashPayment{" +
-                "balance=" + balance +
+                "balance=" + amount +
                 '}';
     }
 }
