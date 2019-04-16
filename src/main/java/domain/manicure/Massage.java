@@ -1,5 +1,6 @@
 package domain.manicure;
 
+import java.util.Arrays;
 import java.util.Set;
 
 public class Massage {
@@ -39,4 +40,10 @@ public class Massage {
         }
     }
 
+    @Override
+    public String toString() {
+        return "Massage{" +
+                "types=" + Arrays.toString(types) +
+                '}';
+    }
 }

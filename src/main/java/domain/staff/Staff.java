@@ -8,6 +8,8 @@ public class Staff {
     private int staffNumber;
 
     private Booking booking;
+    private HairStyler hairStyler;
+    private Cleaners cleaners;
 
     private Staff(){}
 

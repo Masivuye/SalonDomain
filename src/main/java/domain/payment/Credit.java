@@ -2,20 +2,18 @@ package domain.payment;
 
 import java.util.Set;
 
-public class CardPayment {
+public class Credit {
     private double balance;
 
 
-    private Set<Payment> payments;
-    private Set<Cheque> cheques;
-    private Set<Debit> debit;
-    private Set<Credit> credit;
+    private Set<CardPayment> cardPayment;
 
 
-    private CardPayment() {
+
+    private Credit() {
     }
 
-    private CardPayment(Builder builder) {
+    private Credit(Builder builder) {
         this.balance = builder.balance;
 
     }
@@ -35,14 +33,14 @@ public class CardPayment {
         }
 
 
-        public CardPayment build() {
-            return new CardPayment(this);
+        public Credit build() {
+            return new Credit(this);
         }
     }
 
     @Override
     public String toString() {
-        return "CardPayment{" +
+        return "Credit{" +
                 "balance=" + balance +
                 '}';
     }

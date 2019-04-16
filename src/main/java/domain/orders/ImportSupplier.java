@@ -45,4 +45,12 @@ public class ImportSupplier {
             return new ImportSupplier(this);
         }
     }
+
+    @Override
+    public String toString() {
+        return "ImportSupplier{" +
+                "name='" + name + '\'' +
+                ", impSupNum=" + impSupNum +
+                '}';
+    }
 }

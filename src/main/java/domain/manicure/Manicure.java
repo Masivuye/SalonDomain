@@ -12,6 +12,8 @@ public class Manicure {
 
 
     private Set<Customer> customer;
+    private Nails nails;
+    private Massage massage;
 
     private Manicure() {
     }

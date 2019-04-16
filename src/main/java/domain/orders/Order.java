@@ -9,6 +9,7 @@ public class Order {
     private double price;
 
     private Set<Admin> admin;
+    private Set<Supplier> suppliers;
 
 
 

@@ -1,10 +1,11 @@
 package domain.manicure;
 
+import java.util.Arrays;
 import java.util.Set;
 
 public class Nails {
     private String[] shapes;
-    private String[] types;
+    private String[] colors;
 
 
     private Set<Manicure> manicure;
@@ -13,7 +14,7 @@ public class Nails {
     }
 
     private Nails(Builder builder) {
-        this.types = builder.types;
+        this.colors = builder.colors;
         this.shapes = builder.shapes;
 
     }
@@ -22,14 +23,14 @@ public class Nails {
         return shapes;
     }
 
-    public String[] getTypes() {
-        return types;
+    public String[] getColors() {
+        return colors;
     }
 
     public static class Builder {
 
         private String[] shapes;
-        private String[] types;
+        private String[] colors;
 
 
         public Builder shapes(String[] shapes) {
@@ -37,13 +38,21 @@ public class Nails {
             return this;
         }
 
-        public Builder types(String[] types) {
-            this.types = types;
+        public Builder colors(String[] colors) {
+            this.colors = colors;
             return this;
         }
 
         public Nails build() {
             return new Nails(this);
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Nails{" +
+                "shapes=" + Arrays.toString(shapes) +
+                ", colors=" + Arrays.toString(colors) +
+                '}';
     }
 }

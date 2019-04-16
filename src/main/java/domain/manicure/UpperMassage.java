@@ -37,4 +37,11 @@ public class UpperMassage {
             return new UpperMassage(this);
         }
     }
+
+    @Override
+    public String toString() {
+        return "UpperMassage{" +
+                "price=" + price +
+                '}';
+    }
 }
