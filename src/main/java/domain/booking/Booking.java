@@ -45,6 +45,9 @@ public class Booking {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Booking{" +
+                "date=" + date +
+                ", bookingNumber=" + bookingNumber +
+                '}';
     }
 }
