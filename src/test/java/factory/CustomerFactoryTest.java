@@ -1,8 +1,11 @@
 package factory;
 
-import domain.Customer;
-import domain.HairStyle;
-import domain.Manicure;
+import domain.booking.Customer;
+import domain.hair.HairStyle;
+import domain.manicure.Manicure;
+import factory.bookingFactory.CustomerFactory;
+import factory.hairFactory.HairStyleFactory;
+import factory.manicureFactory.ManicureFactory;
 import org.junit.Assert;
 import org.junit.Test;
 

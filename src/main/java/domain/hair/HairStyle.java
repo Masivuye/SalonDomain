@@ -1,4 +1,6 @@
-package domain;
+package domain.hair;
+
+import domain.booking.Customer;
 
 import java.util.Arrays;
 import java.util.Set;
@@ -7,6 +9,7 @@ public class HairStyle {
     private double price;
     private String[] types;
     private Set<Customer> customer;
+    private Set<Promotions>promotions;
 
     private HairStyle(){}
 

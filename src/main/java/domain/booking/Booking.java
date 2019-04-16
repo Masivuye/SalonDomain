@@ -1,8 +1,9 @@
-package domain;
+package domain.booking;
 
+
+import domain.staff.Staff;
 
 import java.util.Date;
-
 
 public class Booking {
     private Date date;
@@ -24,6 +25,7 @@ public class Booking {
     public int bookingNumber() {
         return bookingNumber;
     }
+
     public static class Builder{
         private int bookingNumber;
         private Date date;

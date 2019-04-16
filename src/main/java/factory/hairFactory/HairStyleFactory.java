@@ -1,6 +1,6 @@
-package factory;
+package factory.hairFactory;
 
-import domain.HairStyle;
+import domain.hair.HairStyle;
 
 public class HairStyleFactory {
 

@@ -1,7 +1,8 @@
 package factory;
 
-import domain.Booking;
-import domain.Staff;
+import domain.booking.Booking;
+import domain.staff.Staff;
+import factory.bookingFactory.BookingFactory;
 import org.junit.Assert;
 import org.junit.Test;
 import java.util.Calendar;

@@ -1,6 +1,7 @@
-package domain;
+package domain.staff;
 
 
+import domain.booking.Booking;
 
 public class Staff {
     private String name;
@@ -9,6 +10,7 @@ public class Staff {
     private Booking booking;
 
     private Staff(){}
+
 
     private Staff(Builder builder){
         this.name = builder.name;

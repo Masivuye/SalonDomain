@@ -1,8 +1,8 @@
-package factory;
+package factory.bookingFactory;
 
-import domain.Customer;
-import domain.HairStyle;
-import domain.Manicure;
+import domain.booking.Customer;
+import domain.hair.HairStyle;
+import domain.manicure.Manicure;
 
 public class CustomerFactory {
     public static Customer getCustomer(String name,int custNumber){

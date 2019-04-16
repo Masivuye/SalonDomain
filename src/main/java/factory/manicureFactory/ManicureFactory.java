@@ -1,7 +1,7 @@
-package factory;
+package factory.manicureFactory;
 
 
-import domain.Manicure;
+import domain.manicure.Manicure;
 
 public class ManicureFactory {
 

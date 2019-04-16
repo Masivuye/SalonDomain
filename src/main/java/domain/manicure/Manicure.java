@@ -1,5 +1,7 @@
-package domain;
+package domain.manicure;
 
+
+import domain.booking.Customer;
 
 import java.util.Arrays;
 import java.util.Set;

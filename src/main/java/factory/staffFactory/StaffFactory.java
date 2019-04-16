@@ -1,6 +1,6 @@
-package factory;
+package factory.staffFactory;
 
-import domain.Staff;
+import domain.staff.Staff;
 
 public class StaffFactory {
 

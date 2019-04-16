@@ -1,4 +1,7 @@
-package domain;
+package domain.booking;
+
+import domain.hair.HairStyle;
+import domain.manicure.Manicure;
 
 import java.util.Set;
 
