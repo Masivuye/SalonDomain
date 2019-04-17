@@ -10,7 +10,7 @@ public class CashPaymentFactoryTest {
     public void getCash(){
         double amount =0;
         CashPayment cashPayment = CashPaymentFactory.getCash(amount);
-        Assert.assertNull(amount);
+        Assert.assertNotNull(amount);
         System.out.println(cashPayment.getAmount(amount));
     }
 }

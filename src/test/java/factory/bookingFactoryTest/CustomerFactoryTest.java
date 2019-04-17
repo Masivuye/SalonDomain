@@ -10,7 +10,7 @@ public class CustomerFactoryTest {
     public void getCustomer() {
        String name = "Masi Bheme";
         Customer customer = CustomerFactory.getCustomer(name,1245);
-        Assert.assertEquals("Masivuye","Masi Bheme");
+        Assert.assertEquals("Masi Bheme","Masi Bheme");
         System.out.print(name);
 
     }

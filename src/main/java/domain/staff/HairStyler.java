@@ -50,7 +50,7 @@ public class HairStyler {
     public String toString() {
         return "HairStyler{" +
                 "name='" + name + '\'' +
-                ", Adnum=" + stylnum +
+                ",stylnum=" + stylnum +
                 '}';
     }
 }
