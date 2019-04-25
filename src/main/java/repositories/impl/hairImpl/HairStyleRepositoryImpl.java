@@ -1,4 +1,7 @@
 package repositories.impl.hairImpl;
 
-public class HairStyleRepositoryImpl {
+import repositories.hairRepository.HairStyleRepository;
+
+public class HairStyleRepositoryImpl  {
+
 }

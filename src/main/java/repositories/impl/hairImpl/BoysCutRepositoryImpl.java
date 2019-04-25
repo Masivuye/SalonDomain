@@ -8,11 +8,12 @@ import java.util.Map;
 import java.util.Set;
 
 public class BoysCutRepositoryImpl implements BoysCutRepository {
+
     private static BoysCutRepositoryImpl repository = null;
-    private Map<String, BoysCut> boysCutTable;
+    private Map<String[], BoysCut> boysCutTable;
 
     private BoysCutRepositoryImpl() {
-        boysCutTable = new HashMap<String, BoysCut>();
+        boysCutTable = new HashMap<String[], BoysCut>();
 
     }
     public static BoysCutRepository getRepository(){
@@ -27,12 +28,16 @@ public class BoysCutRepositoryImpl implements BoysCutRepository {
 
     @Override
     public BoysCut create(BoysCut boysCut) {
-        return null;
+        boysCutTable.put(boysCut.getTypes(),boysCut);
+        BoysCut boysCut1 = boysCutTable.get(boysCut.getTypes());
+        return boysCut1;
     }
 
     @Override
     public BoysCut update(BoysCut boysCut) {
-        return null;
+        boysCutTable.put(boysCut.getTypes(),boysCut);
+        BoysCut boysCut1 = boysCutTable.get(boysCut.getTypes());
+        return boysCut1;
     }
 
     @Override

@@ -1,4 +1,6 @@
 package repositories.impl.hairImpl;
 
-public class PromotionsRepositoryImpl {
+import repositories.paymentRepository.PaymentRepository;
+
+public class PromotionsRepositoryImpl  {
 }

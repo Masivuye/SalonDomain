@@ -8,5 +8,4 @@ import java.util.*;
 
 public interface BookingRepository extends IRepository<Booking, Date> {
         Set<Booking> getAll();
-
-        }
+}

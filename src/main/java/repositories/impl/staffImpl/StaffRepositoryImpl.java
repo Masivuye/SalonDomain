@@ -3,16 +3,17 @@ package repositories.impl.staffImpl;
 import domain.staff.Staff;
 import repositories.staffRepository.StaffRepository;
 
-import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class StaffRepositoryImpl implements StaffRepository{
 
     private static StaffRepositoryImpl repository = null;
-    private Set<Staff> staffTable;
+    private Map<String, Staff> staffTable;
 
     private StaffRepositoryImpl() {
-        this.staffTable = new HashSet<>();
+        staffTable = new HashMap<String, Staff>();
 
     }
     public static StaffRepository getRepository(){
@@ -27,13 +28,16 @@ public class StaffRepositoryImpl implements StaffRepository{
 
     @Override
     public Staff create(Staff staff) {
-        this.staffTable.add(staff);
-        return null;
+        staffTable.put(staff.getName(),staff);
+        Staff staff1 = staffTable.get(staff.getName());
+        return staff1;
     }
 
     @Override
     public Staff update(Staff staff) {
-        return null;
+        staffTable.put(staff.getName(),staff);
+        Staff staff1 = staffTable.get(staff.getName());
+        return staff1;
     }
 
     @Override
