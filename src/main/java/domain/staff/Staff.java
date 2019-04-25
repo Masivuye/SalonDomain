@@ -3,11 +3,13 @@ package domain.staff;
 
 import domain.booking.Booking;
 
+import java.util.Set;
+
 public class Staff {
     private String name;
     private int staffNumber;
 
-    private Booking booking;
+    private Set<Booking> booking;
     private HairStyler hairStyler;
     private Cleaners cleaners;
 

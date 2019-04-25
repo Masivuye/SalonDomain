@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class ImportSupplier {
     private String name;
-    private int impSupNum;
+    private int shipedNum;
 
     private Set<Supplier> suppliers;
 
@@ -15,20 +15,20 @@ public class ImportSupplier {
 
     private ImportSupplier(Builder builder) {
         this.name = builder.name;
-        this.impSupNum = builder.impSupNum;
+        this.shipedNum = builder.shipedNum;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getImpSupNum() {
-        return impSupNum;
+    public int getShipedNum() {
+        return shipedNum;
     }
 
     public static class Builder {
         private String name;
-        private int impSupNum;
+        private int shipedNum;
 
 
         public Builder name(String name) {
@@ -36,8 +36,8 @@ public class ImportSupplier {
             return this;
         }
 
-        public Builder locSupNum(int impSupNum) {
-            this.impSupNum = impSupNum;
+        public Builder shipedNum(int shipedNum) {
+            this.shipedNum = shipedNum;
             return this;
         }
 
@@ -50,7 +50,7 @@ public class ImportSupplier {
     public String toString() {
         return "ImportSupplier{" +
                 "name='" + name + '\'' +
-                ", impSupNum=" + impSupNum +
+                ", impSupNum=" + shipedNum +
                 '}';
     }
 }

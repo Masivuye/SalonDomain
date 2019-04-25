@@ -12,6 +12,7 @@ public class BookingFactory {
         return new Booking.Builder().date(date)
                     .bookingNumber(bookingNumber)
                 .build();
+
     }
     public static Customer getCustomer(String name, int custNumber){
         return new Customer.Builder().name("Masivuye")

@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/staff/HairStyler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/staff/HairStyler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/CustomerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/CustomerFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/HairStyleFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/HairStyleFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/HairStylerFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/HairStylerFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/booking/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/orders/ImportSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/orders/ImportSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/staff/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/staff/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/ordersFactory/ImportSupplierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/ordersFactory/ImportSupplierFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/BookingFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/BookingFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/ImportSupplierFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/ImportSupplierFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/booking/Booking$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/booking/Booking$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/booking/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/booking/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/staff/Staff$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/staff/Staff$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/domain/staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/domain/staff/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/bookingFactory/BookingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/bookingFactory/BookingFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/factory/bookingFactoryTest/BookingFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/factory/bookingFactoryTest/BookingFactoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,32 +27,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/HairStylerFactoryTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/hairImpl/BoysCutRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory/staffFactory/HairStylerFactory.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/staff/HairStyler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state relative-caret-position="85">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +65,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,50 +76,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/factory/manicureFactory/MassageFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/manicureFactory/NailsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/hairFactory/GirlsHair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/hairFactory/BoysCut.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/hairFactory/PromotionsFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/hairFactory/GirlsHairFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/hairFactory/BoysCutFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/paymentFactory/PaymentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/paymentFactory/DebitFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/paymentFactory/CashPaymentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/paymentFactory/ChequeFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/paymentFactory/CreditFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/staffFactory/HairStylerFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/staffFactory/CleanersFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/staff/Cleaners.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/staffFactory/AdminFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/bookingFactoryTest/CustomerFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/hairFactoryTest/HairStyleFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/bookingFactoryTest/BookingFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/staffFactory/AdminFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factoryTest/staffFactory/StaffFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/staffFactoryTest/StaffFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/staffFactoryTest/AdminFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/staffFactoryTest/HairStylerFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factoryTest/staffFactory/CleanersFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/staffFactoryTest/CleanersFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factoryTest/paymentFactory/CardPaymentFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/paymentFactoryTest/CardPaymentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/paymentFactoryTest/PaymentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factoryTest/paymentFactory/CashPaymentFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/payment/CashPayment.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/paymentFactoryTest/CashPaymentFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/paymentFactoryTest/ChequeFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/paymentFactoryTest/CreditFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/paymentFactoryTest/DebitFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/manicureFactoryTest/ManicureFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/hairFactoryTest/GirlsHairFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/hairFactoryTest/BoysCutFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factoryTest/hairFactoryTest/PromotionsFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/MassageFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/NailsFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/UpperMassageFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/FullMassageFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/ImportSupplierFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/LocalSuppliersFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/OrderFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/SupplierFactoryTest.java" />
@@ -114,6 +84,49 @@
         <option value="$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/HairStyleFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/staff/HairStyler.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/HairStylerFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/CashPaymentFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/BookingRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/IRepository/IRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/DBImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/staff/Staff.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/booking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/bookingRepository/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/bookingRepository/BookingRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/BookingFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/bookingRepository/StaffRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/factory/ordersFactory/ImportSupplierFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/orders/ImportSupplier.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/ImportSupplierFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/BookingRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/CustomerRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/StaffRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/factory/repositoty/BookingRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/hairRepository/BoysCutRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/hairRepository/GirlsHairRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/hairRepository/HairStyleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/hairRepository/PromotionsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/manicureRepository/FullMassageRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/manicureRepository/ManicureRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/manicureRepository/MassageRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/manicureRepository/NailsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/manicureRepository/UpperMassageRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/ordersRepository/ImportSupplierRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/ordersRepository/LocalSupplierRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/ordersRepository/OrderRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/ordersRepository/SupplierRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/paymentRepository/CardPaymentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/paymentRepository/CashPaymentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/paymentRepository/ChequeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/paymentRepository/CreditRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/paymentRepository/DebitRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/paymentRepository/PaymentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/staffRepository/AdminRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/staffRepository/CleanersRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/staffRepository/HairStylerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/staffRepository/StaffRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java" />
       </list>
     </option>
   </component>
@@ -130,13 +143,15 @@
     <option name="width" value="678" />
     <option name="height" value="747" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +183,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
@@ -176,8 +191,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="staff" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
@@ -185,111 +200,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="staffFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="bookingFactoryTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="hairFactoryTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="manicureFactoryTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="ordersFactoryTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="paymentFactoryTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="staffFactoryTest" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="bookingImpl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555495425928" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556147877787" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sms-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -312,18 +247,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CashPaymentFactoryTest.getCash">
-    <configuration name="AdminFactoryTest.getAmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BookingFactoryTest.getBooking">
+    <configuration name="BookingFactoryTest.getBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalonDomain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.staffFactoryTest.*" />
+          <option name="PATTERN" value="factory.bookingFactoryTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="factory.staffFactoryTest" />
-      <option name="MAIN_CLASS_NAME" value="factory.staffFactoryTest.AdminFactoryTest" />
-      <option name="METHOD_NAME" value="getAmin" />
+      <option name="PACKAGE_NAME" value="factory.bookingFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="factory.bookingFactoryTest.BookingFactoryTest" />
+      <option name="METHOD_NAME" value="getBooking" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -395,11 +330,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookingFactoryTest.getBooking" />
         <item itemvalue="JUnit.CashPaymentFactoryTest.getCash" />
         <item itemvalue="JUnit.StaffFactoryTest.getStaff" />
         <item itemvalue="JUnit.HairStylerFactoryTest.getHairStyler" />
         <item itemvalue="JUnit.CleanersFactoryTest.getCleaners" />
-        <item itemvalue="JUnit.AdminFactoryTest.getAmin" />
       </list>
     </recent_temporary>
   </component>
@@ -418,26 +353,13 @@
       <workItem from="1554907089046" duration="10890000" />
       <workItem from="1555149666746" duration="1204000" />
       <workItem from="1555319377651" duration="31532000" />
-      <workItem from="1555486919903" duration="4790000" />
+      <workItem from="1555486919903" duration="7359000" />
+      <workItem from="1556096389547" duration="19752000" />
+      <workItem from="1556182529221" duration="1658000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CashPaymentFactoryTest_getCash - 2019.04.17 at 11h 51m 59s.xml">
-      <configuration name="CashPaymentFactoryTest.getCash" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChequeFactoryTest_getCheque - 2019.04.17 at 11h 52m 26s.xml">
-      <configuration name="ChequeFactoryTest.getCheque" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CreditFactoryTest_getCredit - 2019.04.17 at 11h 52m 34s.xml">
-      <configuration name="CreditFactoryTest.getCredit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DebitFactoryTest_getDebit - 2019.04.17 at 11h 52m 44s.xml">
-      <configuration name="DebitFactoryTest.getDebit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PaymentFactoryTest_getPayment - 2019.04.17 at 11h 52m 55s.xml">
-      <configuration name="PaymentFactoryTest.getPayment" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AdminFactoryTest_getAmin - 2019.04.17 at 11h 53m 08s.xml">
       <configuration name="AdminFactoryTest.getAmin" configurationId="JUnit" />
     </history-entry>
@@ -453,9 +375,24 @@
     <history-entry file="HairStylerFactoryTest_getHairStyler - 2019.04.17 at 12h 02m 48s.xml">
       <configuration name="HairStylerFactoryTest.getHairStyler" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HairStylerFactoryTest_getHairStyler - 2019.04.17 at 12h 03m 22s.xml">
+      <configuration name="HairStylerFactoryTest.getHairStyler" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StaffFactoryTest_getStaff - 2019.04.17 at 12h 03m 48s.xml">
+      <configuration name="StaffFactoryTest.getStaff" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CashPaymentFactoryTest_getCash - 2019.04.17 at 12h 04m 45s.xml">
+      <configuration name="CashPaymentFactoryTest.getCash" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingFactoryTest_getBooking - 2019.04.24 at 23h 01m 46s.xml">
+      <configuration name="BookingFactoryTest.getBooking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingFactoryTest_getBooking - 2019.04.24 at 23h 02m 49s.xml">
+      <configuration name="BookingFactoryTest.getBooking" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60112000" />
+    <option name="totallyTimeSpent" value="84091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -466,7 +403,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24130106" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -475,7 +412,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
@@ -497,7 +434,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24130106" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24508321" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -506,7 +443,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
@@ -541,428 +478,452 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/staffFactory/CleanersFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/repositoty/BookingRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="986">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/paymentFactory/CreditFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/FullMassageRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/paymentFactory/DebitFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/ManicureRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/paymentFactory/PaymentFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/MassageRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/payment/CardPayment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/NailsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/paymentFactory/CardPaymentFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/UpperMassageRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/ordersRepository/ImportSupplierRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/ordersRepository/LocalSupplierRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/ordersRepository/OrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/ordersRepository/SupplierRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/paymentRepository/CardPaymentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/paymentRepository/CashPaymentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/paymentRepository/ChequeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/paymentFactory/CashPaymentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/payment/CashPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/paymentFactory/ChequeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/hair/GirlsHair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-393">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/hair/Promotions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/manicureFactory/MassageFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/manicureFactory/NailsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/manicureFactory/UpperMassageFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/paymentRepository/CreditRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/manicureFactory/FullMassageFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/paymentRepository/DebitRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ordersFactory/ImportSupplierFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/paymentRepository/PaymentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ordersFactory/LocalSuppliersFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/staffRepository/AdminRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ordersFactory/OderFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/staffRepository/CleanersRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/staffRepository/HairStylerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/ordersFactory/SupplierFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/IRepository/IRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/staffFactory/StaffFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/hairImpl/HairStyleRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/hairImpl/PromotionsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/staffRepository/StaffRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/staffRepository/StaffRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/ManicureRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/MassageRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/NailsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/orderImpl/OrderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/orderImpl/SupplierRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/paymentImpl/ChequeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/paymentImpl/CreditrepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/paymentImpl/PaymentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/paymentImpl/DebitRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/staffImpl/StaffRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/payment/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/BookingFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/CustomerFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/staffImpl/AdminRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/hair/BoysCut.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/staffImpl/CleanersrepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/BoysCutFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/staffImpl/HairStylerRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/hairRepository/BoysCutRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/HairStyleFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/hairRepository/GirlsHairRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/PromotionsFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/hairRepository/HairStyleRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/hairFactoryTest/GirlsHairFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/FullMassageFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/hairRepository/PromotionsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/ManicureFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/CustomerRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/MassageFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/hairImpl/BoysCutRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="51" lean-forward="true" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/NailsFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="75" lean-forward="true" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/manicureFactoryTest/UpperMassageFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/OrderFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/LocalSuppliersFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/SupplierFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/ordersFactoryTest/ImportSupplierFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" lean-forward="true" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/CardPaymentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/CashPaymentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/ChequeFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/CreditFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/DebitFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/paymentFactoryTest/PaymentFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/AdminFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/CleanersFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/hairFactory/HairStyleFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/staff/HairStyler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/staffFactory/HairStylerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/HairStylerFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="85">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,12 +4,13 @@ package domain.booking;
 import domain.staff.Staff;
 
 import java.util.Date;
+import java.util.Set;
 
 public class Booking {
     private Date date;
     private int bookingNumber;
     private Customer customer;
-    private Staff staff;
+    private Set<Staff> staff;
 
     private Booking(){}
 
@@ -18,7 +19,7 @@ public class Booking {
         this.bookingNumber = builder.bookingNumber;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 

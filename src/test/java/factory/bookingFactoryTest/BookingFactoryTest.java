@@ -16,7 +16,7 @@ public class BookingFactoryTest {
         Date date = cal.getTime();
         Booking booking = BookingFactory.getBooking(date,12);
         System.out.println("Booking date is: "+booking.getDate());
-        Assert.assertEquals(10/04/2019,10/04/2019);
+        Assert.assertEquals(booking.getDate(),booking.getDate());
 
     }
 

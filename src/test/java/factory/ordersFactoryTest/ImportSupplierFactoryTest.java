@@ -10,6 +10,6 @@ public class ImportSupplierFactoryTest {
     public void getImports(){
         ImportSupplier importSupplier = ImportSupplierFactory.getImports("Revlon",2548);
         Assert.assertEquals(2548,2548);
-        System.out.println(importSupplier.getImpSupNum());
+        System.out.println(importSupplier.getShipedNum());
     }
 }
