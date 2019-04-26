@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface NailsRepository extends IRepository<Nails,String> {
+public interface NailsRepository extends IRepository<Nails,String[]> {
     Set<Nails> getAll();
 }

@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface MassageRepository extends IRepository<Massage,String> {
+public interface MassageRepository extends IRepository<Massage,String[]> {
     Set<Massage> getAll();
 }

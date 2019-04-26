@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface ManicureRepository extends IRepository<Manicure,String> {
+public interface ManicureRepository extends IRepository<Manicure,String[]> {
     Set<Manicure> getAll();
 }

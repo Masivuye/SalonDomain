@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface ImportSupplierRepository extends IRepository<ImportSupplier,String> {
+public interface ImportSupplierRepository extends IRepository<ImportSupplier,Integer> {
     Set<ImportSupplier> getAll();
 }

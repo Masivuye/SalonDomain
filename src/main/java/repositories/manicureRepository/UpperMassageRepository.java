@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface UpperMassageRepository extends IRepository<UpperMassage,String> {
+public interface UpperMassageRepository extends IRepository<UpperMassage,Double> {
     Set<UpperMassage> getAll();
 }

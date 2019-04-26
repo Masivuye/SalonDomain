@@ -10,10 +10,10 @@ import java.util.Set;
 public class StaffRepositoryImpl implements StaffRepository{
 
     private static StaffRepositoryImpl repository = null;
-    private Map<String, Staff> staffTable;
+    private Map<String[], Staff> staffTable;
 
     private StaffRepositoryImpl() {
-        staffTable = new HashMap<String, Staff>();
+        staffTable = new HashMap<String[], Staff>();
 
     }
     public static StaffRepository getRepository(){
@@ -41,12 +41,15 @@ public class StaffRepositoryImpl implements StaffRepository{
     }
 
     @Override
-    public void delete(String s) {
+    public void delete(String[] s) {
+        staffTable.remove(s);
 
     }
 
     @Override
-    public Staff read(String s) {
-        return null;
+    public Staff read(String[] s) {
+        Staff staff = (Staff) getAll();
+
+        return staff;
     }
 }

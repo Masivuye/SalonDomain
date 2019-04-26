@@ -10,7 +10,7 @@ import java.util.Set;
 public class ImportSupplierRepositoryImpl implements ImportSupplierRepository {
 
     private static ImportSupplierRepositoryImpl repository = null;
-    private Map<String,ImportSupplier> importSupplierTable;
+    private Map<Integer,ImportSupplier> importSupplierTable;
 
     private ImportSupplierRepositoryImpl() {
         importSupplierTable = new HashMap<>();
@@ -28,25 +28,25 @@ public class ImportSupplierRepositoryImpl implements ImportSupplierRepository {
 
     @Override
     public ImportSupplier create(ImportSupplier importSupplier) {
-        importSupplierTable.put(importSupplier.getName(),importSupplier);
-        ImportSupplier importSupplier1 = importSupplierTable.get(importSupplier.getName());
+        importSupplierTable.put(importSupplier.getShipedNum(),importSupplier);
+        ImportSupplier importSupplier1 = importSupplierTable.get(importSupplier.getShipedNum());
         return importSupplier1;
     }
 
     @Override
     public ImportSupplier update(ImportSupplier importSupplier) {
-        importSupplierTable.put(importSupplier.getName(),importSupplier);
-        ImportSupplier importSupplier1 = importSupplierTable.get(importSupplier.getName());
+        importSupplierTable.put(importSupplier.getShipedNum(),importSupplier);
+        ImportSupplier importSupplier1 = importSupplierTable.get(importSupplier.getShipedNum());
         return importSupplier1;
     }
 
     @Override
-    public void delete(String s) {
+    public void delete(Integer s) {
 
     }
 
     @Override
-    public ImportSupplier read(String s) {
+    public ImportSupplier read(Integer s) {
         return null;
     }
 }

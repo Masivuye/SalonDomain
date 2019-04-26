@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface CreditRepository extends IRepository<Credit,String> {
+public interface CreditRepository extends IRepository<Credit,Double> {
     Set<Credit>  getAll();
 }

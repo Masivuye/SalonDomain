@@ -6,7 +6,7 @@ import domain.booking.Booking;
 import java.util.Set;
 
 public class Staff {
-    private String name;
+    private String[] names;
     private int staffNumber;
 
     private Set<Booking> booking;
@@ -17,24 +17,24 @@ public class Staff {
 
 
     private Staff(Builder builder){
-        this.name = builder.name;
+        this.names = builder.names;
         this.staffNumber = builder.staffNumber;
 
     }
 
-    public String getName() {
-        return name;
+    public String[] getName() {
+        return names;
     }
 
     public int getStaffNumber() {
         return staffNumber;
     }
     public static class Builder{
-        private String name;
+        private String[] names;
         private int staffNumber;
 
-        public Builder name(String name) {
-            this.name = name;
+        public Builder name(String[] name) {
+            this.names = names;
             return this;
         }
         public Builder staffNumber(int staffNumber){
@@ -49,7 +49,7 @@ public class Staff {
     @Override
     public String toString() {
         return "Staff{" +
-                "name='" + name + '\'' +
+                "name='" + names + '\'' +
                 ", staffNumber=" + staffNumber +
                 '}';
     }

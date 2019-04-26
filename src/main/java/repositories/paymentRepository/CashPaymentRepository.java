@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface CashPaymentRepository extends IRepository<CashPayment,String> {
+public interface CashPaymentRepository extends IRepository<CashPayment,Double> {
     Set<CashPayment> getAll();
 }

@@ -37,13 +37,15 @@ public class BookingRepositoryImpl implements BookingRepository {
 
     @Override
     public void delete(Date date) {
+        bookingTable.remove(date);
 
     }
 
     @Override
     public Booking read(Date date) {
+        Booking booking = bookingTable.get(date);
 
-        return null;
+        return booking;
     }
     @Override
     public Set<Booking> getAll() {

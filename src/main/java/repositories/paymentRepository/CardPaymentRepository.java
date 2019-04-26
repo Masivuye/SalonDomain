@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface CardPaymentRepository extends IRepository<CardPayment,String> {
+public interface CardPaymentRepository extends IRepository<CardPayment,Double> {
     Set<CardPayment> getAll();
 }

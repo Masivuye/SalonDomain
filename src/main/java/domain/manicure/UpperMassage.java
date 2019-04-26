@@ -18,7 +18,7 @@ public class UpperMassage {
 
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 

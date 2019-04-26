@@ -5,6 +5,6 @@ import repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface DebitRepository extends IRepository<Debit,String> {
+public interface DebitRepository extends IRepository<Debit,Double> {
     Set<Debit> getAll();
 }

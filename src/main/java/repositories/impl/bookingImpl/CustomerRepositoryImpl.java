@@ -35,11 +35,13 @@ public class CustomerRepositoryImpl implements CustomerRepository {
 
     @Override
     public void delete(String s) {
+        customerTable.remove(s);
 
     }
 
     @Override
     public Customer read(String s) {
+        Customer customer = customerTable.get(s);
         return null;
     }
     @Override
