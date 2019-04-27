@@ -10,7 +10,7 @@ import java.util.Set;
 public class FullMassageRepositoryImpl  implements FullMassageRepository{
 
     private static FullMassageRepositoryImpl repository = null;
-    private Map<String,FullMassage> fullMassageTable;
+    private Map<Double,FullMassage> fullMassageTable;
 
     private FullMassageRepositoryImpl() {
         fullMassageTable = new HashMap<>();

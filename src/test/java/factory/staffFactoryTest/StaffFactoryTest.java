@@ -9,7 +9,8 @@ public class StaffFactoryTest {
     @Test
     public void getStaff() {
         int staffNumber = 211210471;
-        Staff staff = StaffFactory.getStaff("Masivuye",staffNumber);
+        String[] names = {"Masivuye","Thandie"};
+        Staff staff = StaffFactory.getStaff(names,staffNumber);
         Assert.assertEquals(211210471,staffNumber);
         System.out.print(staff.getStaffNumber());
     }

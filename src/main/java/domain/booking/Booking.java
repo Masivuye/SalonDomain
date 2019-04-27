@@ -19,7 +19,7 @@ public class Booking {
         this.bookingNumber = builder.bookingNumber;
     }
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 

@@ -19,7 +19,7 @@ public class FullMassage {
     }
 
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 

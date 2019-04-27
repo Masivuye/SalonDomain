@@ -9,7 +9,7 @@ import java.util.*;
 public class BookingRepositoryImpl implements BookingRepository {
 
     private static BookingRepositoryImpl repository = null;
-    private Map<String,Booking> bookingTable;
+    private Map<Date,Booking> bookingTable;
 
     private BookingRepositoryImpl() {
         bookingTable = new HashMap<>();
