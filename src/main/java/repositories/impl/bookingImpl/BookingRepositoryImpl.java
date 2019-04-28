@@ -44,7 +44,6 @@ public class BookingRepositoryImpl implements BookingRepository {
     @Override
     public Booking read(Date date) {
         Booking booking = bookingTable.get(date);
-
         return booking;
     }
     @Override

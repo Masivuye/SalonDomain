@@ -42,11 +42,13 @@ public class HairStylerRepositoryImpl implements HairStylerRepository {
 
     @Override
     public void delete(String s) {
+        hairStylerTable.remove(s);
 
     }
 
     @Override
     public HairStyler read(String s) {
-        return null;
+        HairStyler hairStyler = hairStylerTable.get(s);
+        return hairStyler;
     }
 }

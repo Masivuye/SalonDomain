@@ -42,11 +42,13 @@ public class ChequeRepositoryImpl implements ChequeRepository {
 
     @Override
     public void delete(Double aDouble) {
+        chequeTable.remove(aDouble);
 
     }
 
     @Override
     public Cheque read(Double aDouble) {
-        return null;
+        Cheque cheque = chequeTable.get(aDouble);
+        return cheque;
     }
 }

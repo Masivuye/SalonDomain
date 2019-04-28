@@ -45,12 +45,14 @@ public class PromotionsRepositoryImpl implements PromotionsRepository {
     }
 
     @Override
-    public void delete(String s) {
+    public void delete(String[] s) {
+        promotionsTable.remove(s);
 
     }
 
     @Override
-    public Promotions read(String s) {
-        return null;
+    public Promotions read(String[] s) {
+        Promotions promotions = promotionsTable.get(s);
+        return promotions;
     }
 }

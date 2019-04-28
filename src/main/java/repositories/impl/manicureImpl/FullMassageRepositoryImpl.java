@@ -41,12 +41,14 @@ public class FullMassageRepositoryImpl  implements FullMassageRepository{
 
     @Override
     public void delete(Double aDouble) {
+        fullMassageTable.remove(aDouble);
 
     }
 
     @Override
     public FullMassage read(Double aDouble) {
-        return null;
+        FullMassage fullMassage = fullMassageTable.get(aDouble);
+        return fullMassage;
     }
 
 

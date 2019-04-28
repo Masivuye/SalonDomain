@@ -42,12 +42,14 @@ public class UpperMassageRepositoryImpl implements UpperMassageRepository {
 
     @Override
     public void delete(Double aDouble) {
+        upperMassageTable.remove(aDouble);
 
     }
 
     @Override
     public UpperMassage read(Double aDouble) {
-        return null;
+        UpperMassage upperMassage = upperMassageTable.get(aDouble);
+        return upperMassage;
     }
 
 

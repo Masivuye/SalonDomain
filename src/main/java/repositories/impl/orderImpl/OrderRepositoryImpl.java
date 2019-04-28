@@ -43,11 +43,13 @@ public class OrderRepositoryImpl implements OrderRepository {
 
     @Override
     public void delete(String s) {
+        orderTable.remove(s);
 
     }
 
     @Override
     public Order read(String s) {
-        return null;
+        Order order = orderTable.get(s);
+        return order;
     }
 }

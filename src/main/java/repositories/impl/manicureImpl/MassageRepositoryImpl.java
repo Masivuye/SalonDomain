@@ -42,11 +42,13 @@ public class MassageRepositoryImpl implements MassageRepository {
 
     @Override
     public void delete(String[] s) {
+        massageTable.remove(s);
 
     }
 
     @Override
     public Massage read(String[] s) {
-        return null;
+        Massage massage = massageTable.get(s);
+        return massage;
     }
 }

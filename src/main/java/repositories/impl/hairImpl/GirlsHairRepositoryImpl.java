@@ -43,11 +43,13 @@ public class GirlsHairRepositoryImpl implements GirlsHairRepository {
 
     @Override
     public void delete(String s) {
+        girlsHairTable.remove(s);
 
     }
 
     @Override
     public GirlsHair read(String s) {
-        return null;
+        GirlsHair girlsHair = girlsHairTable.get(s);
+        return girlsHair;
     }
 }

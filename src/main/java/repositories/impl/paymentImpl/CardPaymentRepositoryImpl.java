@@ -42,11 +42,13 @@ public class CardPaymentRepositoryImpl implements CardPaymentRepository {
 
     @Override
     public void delete(Double aDouble) {
+        cardPaymentTable.remove(aDouble);
 
     }
 
     @Override
     public CardPayment read(Double aDouble) {
-        return null;
+        CardPayment cardPayment = cardPaymentTable.get(aDouble);
+        return cardPayment;
     }
 }

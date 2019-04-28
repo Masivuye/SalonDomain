@@ -42,11 +42,13 @@ public class ManicureRepositoryImpl implements ManicureRepository {
 
     @Override
     public void delete(String[] s) {
+        manicureTable.remove(s);
 
     }
 
     @Override
     public Manicure read(String[] s) {
-        return null;
+        Manicure manicure = manicureTable.get(s);
+        return manicure;
     }
 }

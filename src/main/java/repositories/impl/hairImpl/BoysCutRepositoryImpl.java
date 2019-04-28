@@ -42,11 +42,13 @@ public class BoysCutRepositoryImpl implements BoysCutRepository {
 
     @Override
     public void delete(String s) {
+        boysCutTable.remove(s);
 
     }
 
     @Override
     public BoysCut read(String s) {
-        return null;
+        BoysCut boysCut = boysCutTable.get(s);
+        return boysCut;
     }
 }

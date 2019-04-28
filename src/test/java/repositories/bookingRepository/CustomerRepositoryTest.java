@@ -34,19 +34,21 @@ public class CustomerRepositoryTest {
 
     @Test()
     public void read() throws Exception {
+        int custNumber = 211210471;
         Customer readCustomer = repository.read("Masi");
-        assertEquals(211210471,readCustomer.getCustNumber());
+        assertEquals(custNumber,readCustomer.getCustNumber());
     }
 
     @Test()
     public void update() throws Exception {
+        int custNumber = 211210471;
         Customer customer = repository.read("Masivuye");
         Customer newCustomer = new Customer.Builder().name("Masivuye")
-                .custNumber(211210471)
+                .custNumber(custNumber)
                 .build();
         repository.update(newCustomer);
         Customer UpdateCustomer = repository.read("Masivuye");
-        assertEquals(211210471,UpdateCustomer.getCustNumber());
+        assertEquals("Masivuye",UpdateCustomer.getName());
     }
 
     @Test ()

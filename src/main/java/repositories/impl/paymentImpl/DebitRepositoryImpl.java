@@ -42,11 +42,14 @@ public class DebitRepositoryImpl implements DebitRepository {
 
     @Override
     public void delete(Double aDouble) {
+        debitTable.remove(aDouble);
 
     }
 
     @Override
-    public Debit read(Double aDouble) {
-        return null;
+    public Debit read(Double aDouble)
+    {
+        Debit debit = debitTable.get(aDouble);
+        return debit;
     }
 }

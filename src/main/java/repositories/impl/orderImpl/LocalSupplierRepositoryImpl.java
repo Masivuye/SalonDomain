@@ -42,11 +42,13 @@ public class LocalSupplierRepositoryImpl implements LocalSupplierRepository {
 
     @Override
     public void delete(Integer integer) {
+        localSupplierTable.remove(integer);
 
     }
 
     @Override
     public LocalSuppliers read(Integer integer) {
-        return null;
+        LocalSuppliers localSuppliers = localSupplierTable.get(integer);
+        return localSuppliers;
     }
 }

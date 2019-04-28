@@ -42,11 +42,13 @@ public class CleanersRepositoryImpl implements CleanersRepository {
 
     @Override
     public void delete(String s) {
+        cleanersTable.remove(s);
 
     }
 
     @Override
     public Cleaners read(String s) {
-        return null;
+        Cleaners cleaners = cleanersTable.get(s);
+        return cleaners;
     }
 }

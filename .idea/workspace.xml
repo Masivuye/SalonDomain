@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/booking/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/manicure/FullMassage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/manicure/FullMassage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/StaffFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/StaffFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/repositories/bookingRepository/BookingRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repositories/bookingRepository/BookingRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/repositories/bookingRepository/CustomerRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repositories/bookingRepository/CustomerRepositoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,53 +19,68 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/repositories/bookingRepository/CustomerRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/manicure/FullMassage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/repositories/bookingRepository/BookingRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/IRepository/IRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/BookingFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/bookingRepository/BookingRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/StaffFactoryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory/staffFactory/StaffFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Test.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/factory/bookingFactory/CustomerFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/repositories/impl/staffImpl/HairStylerRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/bookingRepository/BookingRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/IRepository/IRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/hairRepository/BoysCutRepository.java" />
@@ -145,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/factory/staffFactoryTest/StaffFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/repositories/bookingRepository/BookingRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/repositories/bookingRepository/CustomerRepositoryTest.java" />
       </list>
     </option>
@@ -170,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,15 +230,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="staffFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,17 +260,74 @@
               <item name="impl" type="462c0819:PsiDirectoryNode" />
               <item name="bookingImpl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="IRepository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="bookingFactoryTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="bookingRepository" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556394988236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556489087781" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sms-master" />
@@ -305,23 +364,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.CustomerRepositoryTest.update">
-    <configuration name="BookingFactoryTest.getBooking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SalonDomain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factory.bookingFactoryTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="factory.bookingFactoryTest" />
-      <option name="MAIN_CLASS_NAME" value="factory.bookingFactoryTest.BookingFactoryTest" />
-      <option name="METHOD_NAME" value="getBooking" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerRepositoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingRepositoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalonDomain" />
       <extension name="coverage">
         <pattern>
@@ -330,14 +373,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="repositories.bookingRepository" />
-      <option name="MAIN_CLASS_NAME" value="repositories.bookingRepository.CustomerRepositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="repositories.bookingRepository.BookingRepositoryTest" />
       <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingRepositoryTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SalonDomain" />
       <extension name="coverage">
         <pattern>
@@ -346,8 +389,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="repositories.bookingRepository" />
-      <option name="MAIN_CLASS_NAME" value="repositories.bookingRepository.CustomerRepositoryTest" />
-      <option name="METHOD_NAME" value="delete" />
+      <option name="MAIN_CLASS_NAME" value="repositories.bookingRepository.BookingRepositoryTest" />
+      <option name="METHOD_NAME" value="read" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookingRepositoryTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SalonDomain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repositories.bookingRepository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repositories.bookingRepository" />
+      <option name="MAIN_CLASS_NAME" value="repositories.bookingRepository.BookingRepositoryTest" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -389,9 +448,9 @@
       <list>
         <item itemvalue="JUnit.CustomerRepositoryTest.update" />
         <item itemvalue="JUnit.CustomerRepositoryTest.read" />
-        <item itemvalue="JUnit.CustomerRepositoryTest.create" />
-        <item itemvalue="JUnit.CustomerRepositoryTest.delete" />
-        <item itemvalue="JUnit.BookingFactoryTest.getBooking" />
+        <item itemvalue="JUnit.BookingRepositoryTest.create" />
+        <item itemvalue="JUnit.BookingRepositoryTest.read" />
+        <item itemvalue="JUnit.BookingRepositoryTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -413,44 +472,45 @@
       <workItem from="1555486919903" duration="7359000" />
       <workItem from="1556096389547" duration="19752000" />
       <workItem from="1556182529221" duration="7464000" />
-      <workItem from="1556295980593" duration="21293000" />
+      <workItem from="1556295980593" duration="22114000" />
+      <workItem from="1556487697933" duration="1394000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StaffFactoryTest_getStaff - 2019.04.17 at 12h 03m 48s.xml">
-      <configuration name="StaffFactoryTest.getStaff" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CashPaymentFactoryTest_getCash - 2019.04.17 at 12h 04m 45s.xml">
-      <configuration name="CashPaymentFactoryTest.getCash" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingFactoryTest_getBooking - 2019.04.24 at 23h 01m 46s.xml">
-      <configuration name="BookingFactoryTest.getBooking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingFactoryTest_getBooking - 2019.04.24 at 23h 02m 49s.xml">
-      <configuration name="BookingFactoryTest.getBooking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerRepositoryTest_delete - 2019.04.27 at 21h 52m 34s.xml">
-      <configuration name="CustomerRepositoryTest.delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerRepositoryTest_update - 2019.04.27 at 21h 53m 13s.xml">
-      <configuration name="CustomerRepositoryTest.update" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerRepositoryTest_update - 2019.04.27 at 21h 54m 17s.xml">
-      <configuration name="CustomerRepositoryTest.update" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerRepositoryTest_create - 2019.04.27 at 21h 55m 30s.xml">
-      <configuration name="CustomerRepositoryTest.create" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerRepositoryTest_create - 2019.04.27 at 21h 56m 08s.xml">
       <configuration name="CustomerRepositoryTest.create" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CustomerRepositoryTest_read - 2019.04.27 at 21h 56m 37s.xml">
       <configuration name="CustomerRepositoryTest.read" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerRepositoryTest_update - 2019.04.27 at 21h 58m 58s.xml">
+      <configuration name="CustomerRepositoryTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingRepositoryTest_delete - 2019.04.29 at 00h 01m 22s.xml">
+      <configuration name="BookingRepositoryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingRepositoryTest_update - 2019.04.29 at 00h 01m 30s.xml">
+      <configuration name="BookingRepositoryTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingRepositoryTest_read - 2019.04.29 at 00h 01m 38s.xml">
+      <configuration name="BookingRepositoryTest.read" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingRepositoryTest_create - 2019.04.29 at 00h 01m 46s.xml">
+      <configuration name="BookingRepositoryTest.create" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerRepositoryTest_read - 2019.04.29 at 00h 03m 05s.xml">
+      <configuration name="CustomerRepositoryTest.read" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerRepositoryTest_update - 2019.04.29 at 00h 04m 09s.xml">
+      <configuration name="CustomerRepositoryTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerRepositoryTest_update - 2019.04.29 at 00h 04m 57s.xml">
+      <configuration name="CustomerRepositoryTest.update" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111190000" />
+    <option name="totallyTimeSpent" value="113405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -461,7 +521,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23373677" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2375189" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -505,47 +565,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/UpperMassageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/MassageRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/NailsRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repositories/manicureRepository/NailsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -853,32 +872,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/impl/bookingImpl/BookingRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/impl/bookingImpl/CustomerRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/CustomerRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/bookingRepository/BookingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/impl/bookingImpl/BookingRepositoryImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/impl/bookingImpl/CustomerRepositoryImplTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/repositories/bookingRepository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -917,23 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -958,10 +936,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/CustomerRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/impl/hairImpl/BoysCutRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/factory/bookingFactoryTest/BookingFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/factory/bookingFactory/BookingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/bookingRepository/BookingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/IRepository/IRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/bookingRepository/BookingRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/repositories/bookingRepository/CustomerRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        <state relative-caret-position="289">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
     </entry>

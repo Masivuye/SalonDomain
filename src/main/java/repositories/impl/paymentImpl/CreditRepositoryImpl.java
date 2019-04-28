@@ -42,11 +42,13 @@ public class CreditRepositoryImpl implements CreditRepository {
 
     @Override
     public void delete(Double aDouble) {
+        creditTable.remove(aDouble);
 
     }
 
     @Override
     public Credit read(Double aDouble) {
-        return null;
+        Credit credit = creditTable.get(aDouble);
+        return credit;
     }
 }

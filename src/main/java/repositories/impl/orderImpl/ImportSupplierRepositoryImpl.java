@@ -41,12 +41,14 @@ public class ImportSupplierRepositoryImpl implements ImportSupplierRepository {
     }
 
     @Override
-    public void delete(Integer s) {
+    public void delete(Integer num) {
+        importSupplierTable.remove(num);
 
     }
 
     @Override
-    public ImportSupplier read(Integer s) {
-        return null;
+    public ImportSupplier read(Integer num) {
+        ImportSupplier importSupplier = importSupplierTable.get(num);
+        return importSupplier;
     }
 }

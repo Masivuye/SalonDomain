@@ -43,11 +43,13 @@ public class SupplierRepositoryImpl implements SupplierRepository {
 
     @Override
     public void delete(Integer s) {
+        supplierTable.remove(s);
 
     }
 
     @Override
     public Supplier read(Integer s) {
-        return null;
+        Supplier supplier = supplierTable.get(s);
+        return supplier;
     }
 }

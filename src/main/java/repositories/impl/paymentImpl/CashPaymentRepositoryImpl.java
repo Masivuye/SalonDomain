@@ -42,11 +42,13 @@ public class CashPaymentRepositoryImpl implements CashPaymentRepository {
 
     @Override
     public void delete(Double aDouble) {
+        cashPaymentTable.remove(aDouble);
 
     }
 
     @Override
     public CashPayment read(Double aDouble) {
-        return null;
+        CashPayment cashPayment = cashPaymentTable.get(aDouble);
+        return cashPayment;
     }
 }

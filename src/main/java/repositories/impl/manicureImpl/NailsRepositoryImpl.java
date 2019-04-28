@@ -42,11 +42,13 @@ public class NailsRepositoryImpl implements NailsRepository {
 
     @Override
     public void delete(String[] strings) {
+        nailsTable.remove(strings);
 
     }
 
     @Override
     public Nails read(String[] strings) {
-        return null;
+        Nails nails = nailsTable.get(strings);
+        return nails;
     }
 }
