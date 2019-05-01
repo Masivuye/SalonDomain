@@ -40,10 +40,11 @@ public class BookingRepositoryTest {
 
     @Test()
     public void read() throws Exception {
+        int num = 211210471;
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
         Booking readBooing = repository.read(date);
-        assertEquals(date,readBooing.getDate());
+        assertEquals(date,readBooing.bookingNumber());
     }
 
     @Test()
