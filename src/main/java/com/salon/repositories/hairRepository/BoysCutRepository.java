@@ -5,6 +5,6 @@ import com.salon.repositories.IRepository.IRepository;
 
 import java.util.Set;
 
-public interface BoysCutRepository extends IRepository<BoysCut,String> {
+public interface BoysCutRepository extends IRepository<BoysCut,String[]> {
     Set<BoysCut> getAll();
 }

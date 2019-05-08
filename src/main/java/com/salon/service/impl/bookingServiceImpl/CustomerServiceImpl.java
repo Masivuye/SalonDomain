@@ -1,4 +1,4 @@
-package com.salon.service.impl;
+package com.salon.service.impl.bookingServiceImpl;
 
 import com.salon.domain.booking.Customer;
 import com.salon.repositories.bookingRepository.CustomerRepository;

@@ -20,6 +20,10 @@ public class BookingServiceImplTest {
     Map<Integer, Date> values;
     BookingRepository repository;
 
+    private Booking getSaved(){
+        return this.repository.getAll().iterator().next();
+    }
+
     @Before
     public void setUp() throws Exception {
         Calendar cal = Calendar.getInstance();
@@ -54,8 +58,7 @@ public class BookingServiceImplTest {
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
         int bookingNumber = 12;
-        Booking booing = repository.read(date);
-        Booking newBooking = new Booking.Builder().date(date)
+        Booking newBooking = new Booking.Builder().copy(getSaved()).date(date)
                 .bookingNumber(bookingNumber)
                 .build();
         repository.update(newBooking);

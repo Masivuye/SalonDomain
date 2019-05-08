@@ -41,6 +41,12 @@ public class Booking {
             this.date = date;
             return this;
         }
+        public Builder copy(Booking booking){
+            this.date = booking.date;
+            this.bookingNumber = booking.bookingNumber;
+
+            return this;
+        }
         public Booking build(){
             return new Booking(this);
         }
