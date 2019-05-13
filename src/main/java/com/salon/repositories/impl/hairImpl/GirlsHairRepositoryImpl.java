@@ -3,11 +3,12 @@ package com.salon.repositories.impl.hairImpl;
 
 import com.salon.domain.hair.GirlsHair;
 import com.salon.repositories.hairRepository.GirlsHairRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class GirlsHairRepositoryImpl implements GirlsHairRepository {
 
     private static GirlsHairRepositoryImpl repository = null;

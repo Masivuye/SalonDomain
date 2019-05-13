@@ -2,11 +2,12 @@ package com.salon.repositories.impl.orderImpl;
 
 import com.salon.domain.orders.Order;
 import com.salon.repositories.ordersRepository.OrderRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class OrderRepositoryImpl implements OrderRepository {
 
     private static OrderRepositoryImpl repository = null;

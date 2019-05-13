@@ -2,11 +2,12 @@ package com.salon.repositories.impl.hairImpl;
 
 import com.salon.domain.hair.HairStyle;
 import com.salon.repositories.hairRepository.HairStyleRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class HairStyleRepositoryImpl implements HairStyleRepository {
 
     private static HairStyleRepositoryImpl repository = null;

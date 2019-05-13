@@ -1,4 +1,4 @@
-package com.salon.controller;
+package com.salon.controller.bookingController;
 
 
 import com.salon.domain.booking.Booking;

@@ -2,28 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/BoysCutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/BoysCutRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/GirlsHairRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/GirlsHairRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/impl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/impl/bookingServiceImpl/BookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/impl/bookingServiceImpl/CustomerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/SalonDomain.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/SalonApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/impl/BookingServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/impl/CustomerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/impl/BookingServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/impl/BookingServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SalonDomain.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,26 +71,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/BookingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -63,8 +117,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -79,35 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/manicureService/NailsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/LocalSupplierRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/ImportSupplierService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/SupplierService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/LocalSupplierService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/PaymentRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/PaymentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/DebitService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CreditService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/ChequeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CashPaymentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CardPaymentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/HairStylerRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/AdminService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/StaffService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/CleanersService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/HairStylerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/GirlsHairRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/GirlsHairServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/BoysCutServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/PromotionsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/HairStyleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/UpperMassageRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/MassageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/NailsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/FullMassageServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/ManicureServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/UpperMassageServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/LocalSupplierRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/SupplierRepositoryImpl.java" />
@@ -130,6 +155,35 @@
         <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/staffServiceImpl/CleanersServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/BookingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -187,124 +241,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="booking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="orderImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="staffImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -318,9 +254,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557358124810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557749279259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/sms-master" />
@@ -330,7 +267,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -356,6 +293,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -366,88 +308,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="JUnit.BookingServiceImplTest.update">
-    <configuration name="BookingServiceImplTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SalonDomain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.salon.service.impl.bookingServiceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.salon.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.service.impl.BookingServiceImplTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingServiceImplTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SalonDomain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.salon.service.impl.bookingServiceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.salon.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.service.impl.BookingServiceImplTest" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingServiceImplTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SalonDomain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.salon.service.impl.bookingServiceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.salon.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.service.impl.BookingServiceImplTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookingServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SalonDomain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.salon.service.impl.bookingServiceImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.salon.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.service.impl.BookingServiceImplTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SalonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="SalonDomain" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.salon.SalonApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.BookingServiceImplTest.update" />
-        <item itemvalue="Spring Boot.SalonApplication" />
-        <item itemvalue="JUnit.BookingServiceImplTest.create" />
-        <item itemvalue="JUnit.BookingServiceImplTest.read" />
-        <item itemvalue="JUnit.BookingServiceImplTest.delete" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -471,23 +331,16 @@
       <workItem from="1556487697933" duration="11009000" />
       <workItem from="1556704479620" duration="8117000" />
       <workItem from="1556871580145" duration="2933000" />
-      <workItem from="1557144834340" duration="11819000" />
+      <workItem from="1557144834340" duration="13057000" />
+      <workItem from="1557748412930" duration="1125000" />
+      <workItem from="1557749854794" duration="317000" />
+      <workItem from="1557751038852" duration="2179000" />
+      <workItem from="1557757783001" duration="1897000" />
+      <workItem from="1557760065161" duration="446000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookingServiceImplTest_read - 2019.05.01 at 13h 24m 08s.xml">
-      <configuration name="BookingServiceImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingServiceImplTest_getAll - 2019.05.01 at 13h 24m 26s.xml">
-      <configuration name="BookingServiceImplTest.getAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingServiceImplTest_create - 2019.05.01 at 13h 27m 13s.xml">
-      <configuration name="BookingServiceImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingServiceImplTest_getAll - 2019.05.01 at 13h 28m 02s.xml">
-      <configuration name="BookingServiceImplTest.getAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookingServiceImplTest_delete - 2019.05.01 at 13h 28m 26s.xml">
       <configuration name="BookingServiceImplTest.delete" configurationId="JUnit" />
     </history-entry>
@@ -506,9 +359,30 @@
     <history-entry file="BookingServiceImplTest_create - 2019.05.01 at 13h 39m 03s.xml">
       <configuration name="BookingServiceImplTest.create" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BookingServiceImplTest_update - 2019.05.09 at 01h 28m 29s.xml">
+      <configuration name="BookingServiceImplTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingServiceImplTest_delete - 2019.05.13 at 16h 54m 59s.xml">
+      <configuration name="BookingServiceImplTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingServiceImplTest_create_(1) - 2019.05.13 at 16h 55m 24s.xml">
+      <configuration name="BookingServiceImplTest.create (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingServiceImplTest_read_(1) - 2019.05.13 at 16h 55m 53s.xml">
+      <configuration name="BookingServiceImplTest.read (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145889000" />
+    <option name="totallyTimeSpent" value="152879000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -521,12 +395,12 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.23676248" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.25567323" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32872504" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32872504" />
@@ -534,9 +408,10 @@
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32872504" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.32872504" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32872504" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32872504" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.32872504" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -593,7 +468,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/salon/factory/paymentFactoryTest/PaymentFactoryTest.java</url>
           <line>9</line>
-          <properties class="factory.paymentFactoryTest.PaymentFactoryTest" method="getPayment">
+          <properties class="com.salon.factory.paymentFactoryTest.PaymentFactoryTest" method="getPayment">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
@@ -602,252 +477,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/SupplierService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/ordersService/LocalSupplierService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/PaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/DebitService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CreditService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/ChequeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CashPaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CardPaymentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/staffService/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/staffService/StaffService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/staffService/CleanersService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/staffService/HairStylerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/bookingServiceImpl/CustomerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/bookingServiceImpl/BookingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/PromotionsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/HairStyleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/GirlsHairServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/hairServiceImpl/BoysCutServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/MassageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/NailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/FullMassageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/ManicureServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/manicureServiceImpl/UpperMassageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/OrderRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/ImportSupplierRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/SupplierRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/LocalSupplierRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/ImportSupplierServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/LocalSupplierServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/ordersServiceImpl/SupplierServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CardPaymentRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CashPaymentRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CreditRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/ChequeRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/DebitRepository.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/PaymentRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CardPaymentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CashPaymentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CreditRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/ChequeRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/DebitRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/PaymentRepository.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/DebitServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -920,19 +555,254 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
+        <state relative-caret-position="355">
           <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/factory/bookingFactory/BookingFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/bookingRepository/BookingRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="-65">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/BookingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>

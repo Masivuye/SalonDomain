@@ -2,12 +2,13 @@ package com.salon.repositories.impl.orderImpl;
 
 import com.salon.domain.orders.Supplier;
 import com.salon.repositories.ordersRepository.SupplierRepository;
+import org.springframework.stereotype.Repository;
 
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class SupplierRepositoryImpl implements SupplierRepository {
 
     private static SupplierRepositoryImpl repository = null;

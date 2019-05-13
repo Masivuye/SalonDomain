@@ -2,11 +2,12 @@ package com.salon.repositories.impl.paymentImpl;
 
 import com.salon.domain.payment.Cheque;
 import com.salon.repositories.paymentRepository.ChequeRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class ChequeRepositoryImpl implements ChequeRepository {
 
     private static ChequeRepositoryImpl repository = null;

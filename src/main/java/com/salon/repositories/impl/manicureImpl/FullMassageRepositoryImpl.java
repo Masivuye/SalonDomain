@@ -2,11 +2,12 @@ package com.salon.repositories.impl.manicureImpl;
 
 import com.salon.domain.manicure.FullMassage;
 import com.salon.repositories.manicureRepository.FullMassageRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class FullMassageRepositoryImpl  implements FullMassageRepository{
 
     private static FullMassageRepositoryImpl repository = null;

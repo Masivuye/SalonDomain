@@ -1,4 +1,4 @@
-package com.salon.controller;
+package com.salon.controller.bookingController;
 import com.salon.domain.booking.Customer;
 import com.salon.factory.bookingFactory.CustomerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

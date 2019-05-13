@@ -3,9 +3,10 @@ package com.salon.repositories.impl.bookingImpl;
 
 import com.salon.domain.booking.Customer;
 import com.salon.repositories.bookingRepository.CustomerRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
-
+@Repository
 public class CustomerRepositoryImpl implements CustomerRepository {
 
     private static CustomerRepositoryImpl repository = null;

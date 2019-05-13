@@ -2,11 +2,12 @@ package com.salon.repositories.impl.paymentImpl;
 
 import com.salon.domain.payment.Payment;
 import com.salon.repositories.paymentRepository.PaymentRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class PaymentRepositoryImpl implements PaymentRepository {
 
     private static PaymentRepositoryImpl repository = null;

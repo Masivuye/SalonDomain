@@ -2,11 +2,12 @@ package com.salon.repositories.impl.manicureImpl;
 
 import com.salon.domain.manicure.Nails;
 import com.salon.repositories.manicureRepository.NailsRepository;
+import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-
+@Repository
 public class NailsRepositoryImpl implements NailsRepository {
 
     private static NailsRepositoryImpl repository = null;
