@@ -6,6 +6,8 @@ import com.salon.service.impl.hairServiceImpl.PromotionsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Set;
+
 @RestController
 @RequestMapping("/salon/Promotions")
 public class PromotionsController {
@@ -18,5 +20,11 @@ public class PromotionsController {
     Promotions create(@PathVariable String[] products){
         Promotions promotions = PromotionsFactory.getPromotions(products);
         return promotionsService.create(promotions);
+    }
+
+    @GetMapping("/getAll")
+    @ResponseBody
+    public Set<Promotions> getAll(){
+        return promotionsService.getAll();
     }
 }
