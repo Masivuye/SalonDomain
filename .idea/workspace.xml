@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/hairController/PromotionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/hairController/PromotionsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/FullMassageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/FullMassageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/ManicureController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/ManicureController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/MassageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/MassageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/NailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/NailsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/UpperMassageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/manicureController/UpperMassageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/ImportSupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/ImportSupplierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/LocalSupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/LocalSupplierController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/OderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/OderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/SupplierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CardPaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CardPaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CashPaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CashPaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/ChequeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/ChequeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CreditController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CreditController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/DebitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/DebitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/CleanersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/CleanersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/StaffController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,11 +26,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CardPaymentController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/StaffController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/bookingRepository/BookingRepositoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Staff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -57,16 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/CashPaymentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/paymentServiceImpl/PaymentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/staffServiceImpl/CleanersRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/staffServiceImpl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/staffServiceImpl/HairStylerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/staffServiceImpl/StaffServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/service/impl/staffServiceImpl/CleanersServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" />
@@ -108,6 +121,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/LocalSupplierController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/OderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/ordersController/SupplierController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CardPaymentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CashPaymentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/ChequeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CreditController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/DebitController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/CleanersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/StaffController.java" />
       </list>
     </option>
   </component>
@@ -171,39 +194,31 @@
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="paymentController" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="payment" type="462c0819:PsiDirectoryNode" />
+              <item name="bookingRepository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +314,7 @@
       <workItem from="1557751038852" duration="2179000" />
       <workItem from="1557757783001" duration="1897000" />
       <workItem from="1557760065161" duration="446000" />
-      <workItem from="1557815373046" duration="11724000" />
+      <workItem from="1557815373046" duration="16992000" />
     </task>
     <servers />
   </component>
@@ -336,7 +351,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="164603000" />
+    <option name="totallyTimeSpent" value="169871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,34 +456,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -525,13 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/bookingRepository/BookingRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="49" column="11" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/impl/BookingServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-65">
@@ -557,79 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/ChequeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/DebitController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CreditController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CashPaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/StaffController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/CleanersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -862,8 +769,166 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CardPaymentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CashPaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/ChequeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/CreditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/DebitController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/CleanersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Cleaners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#870#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/StaffController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/bookingRepository/BookingRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
         </state>
       </provider>
     </entry>
