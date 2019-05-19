@@ -39,31 +39,27 @@ public class BookingServiceImplTest {
     public void create() throws Exception {
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
-        Booking booking = BookingFactory.getBooking(date,211210471);
+        Booking booking = BookingFactory.getBooking(date,12);
         repository.create(booking);
         assertEquals(date,booking.getDate());
     }
 
     @Test()
     public void read() throws Exception {
-        int num = 211210471;
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
-        Booking readBooing = repository.read(date);
-        assertEquals(date,readBooing.bookingNumber());
+        repository.delete(date);
+        Booking booking = repository.read(date);
+        assertNull(booking);
     }
 
     @Test()
     public void update() throws Exception {
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
-        int bookingNumber = 12;
-        Booking newBooking = new Booking.Builder().copy(getSaved()).date(date)
-                .bookingNumber(bookingNumber)
-                .build();
-        repository.update(newBooking);
-        Booking updateBooing = repository.read(date);
-        assertEquals(date,updateBooing.getDate());
+        Booking booking = BookingFactory.getBooking(date,12);
+        repository.update(booking);
+        assertEquals(date,booking.getDate());
     }
 
     @Test ()

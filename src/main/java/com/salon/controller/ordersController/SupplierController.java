@@ -16,10 +16,10 @@ public class SupplierController {
     private SupplierServiceImpl supplierService;
 
 
-    @GetMapping("/create{supNumber}")
+    @GetMapping("/create{supNum}")
     public @ResponseBody
-    Supplier create(@PathVariable String name, int supNumber){
-        Supplier supplier = SupplierFactory.getSupplier(name,supNumber);
+    Supplier create(@PathVariable String name, int supNum){
+        Supplier supplier = SupplierFactory.getSupplier(name,supNum);
         return supplierService.create(supplier);
     }
 
