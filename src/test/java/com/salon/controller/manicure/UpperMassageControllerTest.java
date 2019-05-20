@@ -1,7 +1,7 @@
 package com.salon.controller.manicure;
 
-import com.salon.domain.manicure.FullMassage;
-import com.salon.factory.manicureFactory.FullMassageFactory;
+import com.salon.domain.manicure.UpperMassage;
+import com.salon.factory.manicureFactory.UpperMassageFactory;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,19 +15,20 @@ import org.springframework.web.client.HttpClientErrorException;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @RunWith(SpringRunner.class)
-public class FullMassageControllerTest {
-    private static FullMassage fullMassage;
+public class UpperMassageControllerTest {
+    private static UpperMassage upperMassage;
 
     @Autowired
     private TestRestTemplate restTemplate;
-    private String baseURL = "http://localhost:8080/salon/FullMassage";
+    private String baseURL = "http://localhost:8080/salon/UpperMassage";
 
 
 
     @Test
-    public void testGetAllFullMassage() {
+    public void testGetAllUpperMassage() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
         HttpEntity<String> entity = new HttpEntity<>(null, httpHeaders);
@@ -38,19 +39,19 @@ public class FullMassageControllerTest {
     }
 
     @Ignore
-    public void testGetFullMassageByPrice() {
-        fullMassage = restTemplate.getForObject(baseURL +"/salon/FullMassage", FullMassage.class);
-        System.out.println(fullMassage.getPrice());
-        assertNotNull(fullMassage);
+    public void testGetUpperMassageByPrice() {
+        upperMassage = restTemplate.getForObject(baseURL +"/salon/UpperMassage", UpperMassage.class);
+        System.out.println(upperMassage.getPrice());
+        assertNotNull(upperMassage);
     }
 
     @Ignore
     public void create(){
-        double price = 250.00 ;
+        double price = 100.00 ;
 
-        fullMassage = FullMassageFactory.getFullMassage(250.00);
+        upperMassage = UpperMassageFactory.getUpperMassage(100.00);
 
-        ResponseEntity<FullMassage> responseEntity = restTemplate.postForEntity(baseURL + "/create" , fullMassage, FullMassage.class);
+        ResponseEntity<UpperMassage> responseEntity = restTemplate.postForEntity(baseURL + "/create" , upperMassage, UpperMassage.class);
         assertNotNull(responseEntity);
         assertNotNull(responseEntity.getBody());
     }
@@ -58,10 +59,10 @@ public class FullMassageControllerTest {
     @Ignore
     public void update(){
 
-        fullMassage = restTemplate.getForObject(baseURL + "/salon/FullMassage" + 400.00, FullMassage.class);
+        upperMassage = restTemplate.getForObject(baseURL + "/salon/UpperMassage" + 150.00, UpperMassage.class);
 
-        restTemplate.put(baseURL + "/create/" + 400.00 ,FullMassage.class);
-        FullMassage updatePrice = restTemplate.getForObject(baseURL + "/salon/FullMassage"+ 400.00, FullMassage.class);
+        restTemplate.put(baseURL + "/create/" + 150.00 ,UpperMassage.class);
+        UpperMassage updatePrice = restTemplate.getForObject(baseURL + "/salon/UpperMassage"+ 150.00, UpperMassage.class);
         assertNotNull(updatePrice);
     }
 
@@ -69,17 +70,16 @@ public class FullMassageControllerTest {
     public void delete(){
 
 
-        fullMassage = restTemplate.getForObject(baseURL + "/salon/FullMassage" + 400.00, FullMassage.class);
-        assertNotNull(fullMassage);
-        restTemplate.delete(baseURL + "/salon/FullMassage" + 400.00);
+        upperMassage = restTemplate.getForObject(baseURL + "/salon/UpperMassage" + 150.00, UpperMassage.class);
+        assertNotNull(upperMassage);
+        restTemplate.delete(baseURL + "/salon/UpperMassage" + 400.00);
 
         try{
-            fullMassage = restTemplate.getForObject(baseURL + "/salon/FullMassage" + 400.00, FullMassage.class);
+            upperMassage = restTemplate.getForObject(baseURL + "/salon/UpperMassage" + 150.00, UpperMassage.class);
         }
         catch (final HttpClientErrorException e){
             assertEquals(e.getStatusCode(), HttpStatus.NOT_FOUND);
         }
-
 
     }
 }

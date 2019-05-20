@@ -46,7 +46,7 @@ public class ManicureControllerTest {
 
     @Ignore
     public void create(){
-        String[] types = {"braid,Weave"};
+        String[] types = {"Massage,Nails"};
         String[] colors = {"Blue,pink"};
         manicure = ManicureFactory.getManicure(types,colors);
 

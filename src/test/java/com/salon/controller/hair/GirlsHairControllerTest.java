@@ -1,8 +1,7 @@
 package com.salon.controller.hair;
 
-
-import com.salon.domain.hair.HairStyle;
-import com.salon.factory.hairFactory.HairStyleFactory;
+import com.salon.domain.hair.GirlsHair;
+import com.salon.factory.hairFactory.GirlsHairFactory;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,17 +17,17 @@ import static org.junit.Assert.assertNotNull;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @RunWith(SpringRunner.class)
-public class HairStyleControllerTest {
-    private static HairStyle hairStyle;
+public class GirlsHairControllerTest {
+    private static GirlsHair girlsHair;
 
     @Autowired
     private TestRestTemplate restTemplate;
-    private String baseURL = "http://localhost:8080/salon/hairStyle";
+    private String baseURL = "http://localhost:8080/salon/GirlsHair";
 
 
 
     @Test
-    public void testGetAllHairStyles() {
+    public void testGetAllGirlsHair() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
         HttpEntity<String> entity = new HttpEntity<>(null, httpHeaders);
@@ -39,47 +38,46 @@ public class HairStyleControllerTest {
     }
 
     @Ignore
-    public void testGetHairStyleByPrice() {
-        hairStyle = restTemplate.getForObject(baseURL +"/salon/hairStyle/150.00", HairStyle.class);
-        System.out.println(hairStyle.getPrice());
-        assertNotNull(hairStyle);
+    public void testGetGirlsHairByPrice() {
+        girlsHair = restTemplate.getForObject(baseURL +"/salon/GirlsHair/400.00", GirlsHair.class);
+        System.out.println(girlsHair.getPrice());
+        assertNotNull(girlsHair);
     }
 
     @Ignore
     public void create(){
-       String[] types = {"Boys,Girls"};
-        hairStyle = HairStyleFactory.getHairStyle(types,150.00);
+        String[] types = {"Brading,Weave"};
+       GirlsHair girlsHair = GirlsHairFactory.getGirlsHair(types,400.00);
 
-        ResponseEntity<HairStyle> responseEntity = restTemplate.postForEntity(baseURL + "/create" , hairStyle, HairStyle.class);
+        ResponseEntity<GirlsHair> responseEntity = restTemplate.postForEntity(baseURL + "/create" , girlsHair, GirlsHair.class);
         assertNotNull(responseEntity);
         assertNotNull(responseEntity.getBody());
     }
 
     @Ignore
     public void update(){
-        double price = 200.00;
-        hairStyle = restTemplate.getForObject(baseURL + "/salon/hairStyle" +price, HairStyle.class);
+        double price = 600.00;
+        girlsHair = restTemplate.getForObject(baseURL + "/salon/GirlsHair" +price, GirlsHair.class);
 
-        restTemplate.put(baseURL + "/create/" +price ,HairStyle.class);
-        HairStyle updateHair = restTemplate.getForObject(baseURL + "/salon/hairStyle"+price, HairStyle.class);
-        assertNotNull(updateHair);
+        restTemplate.put(baseURL + "/create/" +price ,GirlsHair.class);
+        GirlsHair updatePrice = restTemplate.getForObject(baseURL + "/salon/GirlsHair"+price, GirlsHair.class);
+        assertNotNull(updatePrice);
     }
 
     @Ignore
     public void delete(){
-        double price = 200.00;
+        double price = 600.00;
 
-        hairStyle = restTemplate.getForObject(baseURL + "/salon/hairStyle" +price, HairStyle.class);
-        assertNotNull(hairStyle);
-        restTemplate.delete(baseURL + "/salon/hairStyle" + price);
+        girlsHair = restTemplate.getForObject(baseURL + "/salon/GirlsHair" +price, GirlsHair.class);
+        assertNotNull(girlsHair);
+        restTemplate.delete(baseURL + "/salon/GirlsHair" + price);
 
         try{
-            hairStyle = restTemplate.getForObject(baseURL + "/salon/hairStyle"+price, HairStyle.class);
+            girlsHair = restTemplate.getForObject(baseURL + "/salon/BoysCut"+price, GirlsHair.class);
         }
         catch (final HttpClientErrorException e){
             assertEquals(e.getStatusCode(), HttpStatus.NOT_FOUND);
         }
-
 
     }
 }
