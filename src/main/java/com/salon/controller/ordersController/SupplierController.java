@@ -2,7 +2,7 @@ package com.salon.controller.ordersController;
 
 import com.salon.domain.orders.Supplier;
 import com.salon.factory.ordersFactory.SupplierFactory;
-import com.salon.service.impl.ordersServiceImpl.SupplierServiceImpl;
+import com.salon.serviceImpl.ordersServiceImpl.SupplierServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

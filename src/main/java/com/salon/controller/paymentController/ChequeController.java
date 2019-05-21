@@ -2,7 +2,7 @@ package com.salon.controller.paymentController;
 
 import com.salon.domain.payment.Cheque;
 import com.salon.factory.paymentFactory.ChequeFactory;
-import com.salon.service.impl.paymentServiceImpl.ChequeServiceImpl;
+import com.salon.serviceImpl.paymentServiceImpl.ChequeServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

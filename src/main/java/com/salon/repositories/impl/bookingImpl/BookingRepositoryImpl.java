@@ -1,5 +1,6 @@
 package com.salon.repositories.impl.bookingImpl;
 
+
 import com.salon.domain.booking.Booking;
 import com.salon.repositories.bookingRepository.BookingRepository;
 import org.springframework.stereotype.Repository;

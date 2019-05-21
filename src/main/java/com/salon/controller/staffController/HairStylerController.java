@@ -2,7 +2,7 @@ package com.salon.controller.staffController;
 
 import com.salon.domain.staff.HairStyler;
 import com.salon.factory.staffFactory.HairStylerFactory;
-import com.salon.service.impl.staffServiceImpl.HairStylerServiceImpl;
+import com.salon.serviceImpl.staffServiceImpl.HairStylerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -2,7 +2,7 @@ package com.salon.controller.paymentController;
 
 import com.salon.domain.payment.Credit;
 import com.salon.factory.paymentFactory.CreditFactory;
-import com.salon.service.impl.paymentServiceImpl.CreditServiceImpl;
+import com.salon.serviceImpl.paymentServiceImpl.CreditServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
