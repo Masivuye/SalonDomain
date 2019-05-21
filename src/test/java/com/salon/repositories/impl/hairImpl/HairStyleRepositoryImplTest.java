@@ -1,28 +1,24 @@
-package com.salon.service.Impl.hairServiceImpl;
+package com.salon.repositories.impl.hairImpl;
 
 import com.salon.domain.hair.HairStyle;
 import com.salon.factory.hairFactory.HairStyleFactory;
-import com.salon.factory.staffFactory.HairStylerFactory;
-import com.salon.repositories.impl.hairImpl.HairStyleRepositoryImpl;
-import com.salon.service.hairService.HairStyleService;
+import com.salon.repositories.hairRepository.HairStyleRepository;
 import org.junit.Before;
-import org.junit.FixMethodOrder;
 import org.junit.Test;
-import org.junit.runners.MethodSorters;
 
 import java.util.Set;
 
 import static org.junit.Assert.*;
-@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class HairStyleServiceImplTest {
+
+public class HairStyleRepositoryImplTest {
 
     String[] types = {"Girls,Boys"};
-    private HairStyleRepositoryImpl repository;
+    private HairStyleRepository repository;
     private HairStyle hairStyle;
 
     @Before
     public void setUp() throws Exception {
-        this.repository = (HairStyleRepositoryImpl) HairStyleRepositoryImpl.getRepository();
+        this.repository =  HairStyleRepositoryImpl.getRepository();
         this.hairStyle = HairStyleFactory.getHairStyle(types,200.00);
     }
 

@@ -2,6 +2,7 @@ package com.salon.repositories.impl.hairImpl;
 
 import com.salon.domain.hair.BoysCut;
 import com.salon.factory.hairFactory.BoysCutFactory;
+import com.salon.repositories.hairRepository.BoysCutRepository;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -14,7 +15,7 @@ import static org.junit.Assert.*;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class BoysCutRepositoryImplTest {
 
-    private BoysCutRepositoryImpl repository;
+    private BoysCutRepository repository;
     private BoysCut boysCut;
     private String[] types = {"Chiskop,English Cut"};
 
@@ -22,7 +23,7 @@ public class BoysCutRepositoryImplTest {
     @Before
     public void setUp() throws Exception {
 
-        this.repository = (BoysCutRepositoryImpl) BoysCutRepositoryImpl.getRepository();
+        this.repository =  BoysCutRepositoryImpl.getRepository();
         this.boysCut = BoysCutFactory.getBoysCut(types,40.00);
     }
 
