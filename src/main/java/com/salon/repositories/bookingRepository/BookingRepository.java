@@ -6,6 +6,6 @@ import com.salon.repositories.IRepository.IRepository;
 import java.util.*;
 
 
-public interface BookingRepository extends IRepository<Booking, Date> {
+public interface BookingRepository extends IRepository<Booking, Integer> {
         Set<Booking> getAll();
 }

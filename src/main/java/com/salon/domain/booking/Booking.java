@@ -25,7 +25,7 @@ public class Booking {
         return date;
     }
 
-    public int bookingNumber() {
+    public int getBookingNumber() {
         return bookingNumber;
     }
 

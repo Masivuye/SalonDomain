@@ -45,7 +45,7 @@ import static org.junit.Assert.assertNotNull;
         @Ignore
         public void testGetBookingByNumber() {
             booking = restTemplate.getForObject(baseURL +"/salon/booking/Masi", Booking.class);
-            System.out.println(booking.bookingNumber());
+            System.out.println(booking.getBookingNumber());
             assertNotNull(booking);
         }
 

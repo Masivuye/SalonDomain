@@ -3,7 +3,7 @@ import com.salon.domain.booking.Customer;
 import com.salon.factory.bookingFactory.CustomerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.salon.serviceImpl.bookingServiceImpl.CustomerServiceImpl;
+import com.salon.service.Impl.bookingServiceImpl.CustomerServiceImpl;
 
 import java.util.Set;
 

@@ -2,7 +2,7 @@ package com.salon.controller.manicureController;
 
 import com.salon.domain.manicure.Manicure;
 import com.salon.factory.manicureFactory.ManicureFactory;
-import com.salon.serviceImpl.manicureServiceImpl.ManicureServiceImpl;
+import com.salon.service.Impl.manicureServiceImpl.ManicureServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

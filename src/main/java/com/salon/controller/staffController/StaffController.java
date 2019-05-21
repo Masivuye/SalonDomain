@@ -2,7 +2,7 @@ package com.salon.controller.staffController;
 
 import com.salon.domain.staff.Staff;
 import com.salon.factory.staffFactory.StaffFactory;
-import com.salon.serviceImpl.staffServiceImpl.StaffServiceImpl;
+import com.salon.service.Impl.staffServiceImpl.StaffServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
