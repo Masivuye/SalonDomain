@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,27 +24,32 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+            <state relative-caret-position="535">
+              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding>
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-              <folding>
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -71,13 +76,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/staffServiceImpl/StaffServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/ordersServiceImpl/OrderServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/booking/CustomerControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/hair/BoysCutControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/hair/GirlsHairControllerTest.java" />
@@ -102,7 +102,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/CleanersControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/HairStylerControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/StaffControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.java" />
@@ -122,6 +121,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java" />
       </list>
     </option>
   </component>
@@ -185,15 +190,6 @@
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -218,7 +214,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
@@ -227,27 +223,8 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="manicureImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-              <item name="manicureServiceImpl" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="booking" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -323,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NailsRepositoryImplTest.update">
+  <component name="RunManager" selected="JUnit.BookingControllerTest">
     <configuration name="BookingControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="salon" />
       <extension name="coverage">
@@ -339,73 +316,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManicureRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BookingControllerTest.testGetAllBookings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="salon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.salon.repositories.impl.manicureImpl.*" />
+          <option name="PATTERN" value="com.salon.controller.booking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.salon.repositories.impl.manicureImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.repositories.impl.manicureImpl.ManicureRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NailsRepositoryImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="salon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.salon.repositories.impl.manicureImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.salon.repositories.impl.manicureImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.repositories.impl.manicureImpl.NailsRepositoryImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NailsRepositoryImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="salon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.salon.repositories.impl.manicureImpl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.salon.repositories.impl.manicureImpl" />
-      <option name="MAIN_CLASS_NAME" value="com.salon.repositories.impl.manicureImpl.NailsRepositoryImplTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.salon.controller.booking" />
+      <option name="MAIN_CLASS_NAME" value="com.salon.controller.booking.BookingControllerTest" />
+      <option name="METHOD_NAME" value="testGetAllBookings" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.salon.repositories.impl.hairImpl in salon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.salon.controller in salon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="salon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.salon.repositories.impl.hairImpl.*" />
+          <option name="PATTERN" value="com.salon.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.salon.repositories.impl.hairImpl" />
+      <option name="PACKAGE_NAME" value="com.salon.controller" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.salon.service.Impl.hairServiceImpl in salon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="salon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.salon.service.Impl.hairServiceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.salon.service.Impl.hairServiceImpl" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="salon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.salon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.salon.SalonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NailsRepositoryImplTest.update" />
-        <item itemvalue="JUnit.NailsRepositoryImplTest" />
-        <item itemvalue="JUnit.ManicureRepositoryImplTest" />
-        <item itemvalue="JUnit.com.salon.repositories.impl.hairImpl in salon" />
         <item itemvalue="JUnit.BookingControllerTest" />
+        <item itemvalue="JUnit.BookingControllerTest.testGetAllBookings" />
+        <item itemvalue="Spring Boot.SalonApplication" />
+        <item itemvalue="JUnit.com.salon.controller in salon" />
+        <item itemvalue="JUnit.com.salon.service.Impl.hairServiceImpl in salon" />
       </list>
     </recent_temporary>
   </component>
@@ -446,32 +420,11 @@
       <workItem from="1558378407978" duration="2515000" />
       <workItem from="1558433141924" duration="11879000" />
       <workItem from="1558463590287" duration="11831000" />
-      <workItem from="1558511143097" duration="3562000" />
+      <workItem from="1558511143097" duration="6594000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoysCutRepositoryImplTest_create - 2019.05.21 at 22h 13m 28s.xml">
-      <configuration name="BoysCutRepositoryImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GirlsHairServiceImplTest_read - 2019.05.21 at 22h 33m 53s.xml">
-      <configuration name="GirlsHairServiceImplTest.read" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GirlsHairServiceImplTest_delete - 2019.05.21 at 22h 34m 56s.xml">
-      <configuration name="GirlsHairServiceImplTest.delete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GirlsHairServiceImplTest_update - 2019.05.21 at 22h 35m 09s.xml">
-      <configuration name="GirlsHairServiceImplTest.update" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GirlsHairServiceImplTest_create - 2019.05.21 at 22h 35m 19s.xml">
-      <configuration name="GirlsHairServiceImplTest.create" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingFactoryTest_getBooking - 2019.05.21 at 22h 57m 25s.xml">
-      <configuration name="BookingFactoryTest.getBooking" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookingControllerTest - 2019.05.22 at 09h 49m 40s.xml">
-      <configuration name="BookingControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookingControllerTest_testGetAllBookings - 2019.05.22 at 09h 51m 04s.xml">
       <configuration name="BookingControllerTest.testGetAllBookings" configurationId="JUnit" />
     </history-entry>
@@ -481,9 +434,30 @@
     <history-entry file="com_salon_repositories_impl_hairImpl_in_salon - 2019.05.22 at 10h 18m 07s.xml">
       <configuration name="com.salon.repositories.impl.hairImpl in salon" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ManicureRepositoryImplTest - 2019.05.22 at 10h 46m 43s.xml">
+      <configuration name="ManicureRepositoryImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NailsRepositoryImplTest - 2019.05.22 at 10h 49m 16s.xml">
+      <configuration name="NailsRepositoryImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NailsRepositoryImplTest_update - 2019.05.22 at 10h 49m 48s.xml">
+      <configuration name="NailsRepositoryImplTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingControllerTest_delete - 2019.05.22 at 11h 04m 37s.xml">
+      <configuration name="BookingControllerTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BookingControllerTest_delete - 2019.05.22 at 11h 05m 15s.xml">
+      <configuration name="BookingControllerTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_salon_service_Impl_hairServiceImpl_in_salon - 2019.05.22 at 11h 07m 53s.xml">
+      <configuration name="com.salon.service.Impl.hairServiceImpl in salon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_salon_controller_in_salon - 2019.05.22 at 11h 26m 31s.xml">
+      <configuration name="com.salon.controller in salon" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247411000" />
+    <option name="totallyTimeSpent" value="250443000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,48 +572,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/payment/CardPaymentControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/payment/CashPaymentControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/payment/ChequeControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/payment/DebitControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/payment/PaymentControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/payment/CreditControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="67" column="51" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/staff/AdminControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
@@ -700,13 +632,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -896,17 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -963,12 +877,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="145">
+          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding>
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -980,6 +922,38 @@
             <element signature="e#955#956#0" expanded="true" />
             <element signature="e#1021#1022#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
         </state>
       </provider>
     </entry>
