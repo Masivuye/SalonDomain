@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class SupplierControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllSuppliers() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class SupplierControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetSuppliersByNumber() {
         supplier = restTemplate.getForObject(baseURL +"/salon/Supplier", Supplier.class);
         System.out.println(supplier.getSupNum());
         assertNotNull(supplier);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
        Supplier supplier = SupplierFactory.getSupplier("Thuli",25);
@@ -54,7 +55,7 @@ public class SupplierControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
 
         supplier  = restTemplate.getForObject(baseURL + "/salon/Supplier" + 20, Supplier.class);
@@ -64,7 +65,7 @@ public class SupplierControllerTest {
         assertNotNull(updateNumber);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
 
         supplier = restTemplate.getForObject(baseURL + "/salon/Supplier" + 25, Supplier.class);

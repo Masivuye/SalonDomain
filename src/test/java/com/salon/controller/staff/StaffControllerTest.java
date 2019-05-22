@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class StaffControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllStaff() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class StaffControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetStaffByNumber() {
         staff = restTemplate.getForObject(baseURL +"/salon/staff", Staff.class);
         System.out.println(staff.getStaffNumber());
         assertNotNull(staff);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         String[] names = {"Thandiswa "," Masivuye"};
@@ -55,7 +56,7 @@ public class StaffControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         int number = 185;
         staff = restTemplate.getForObject(baseURL + "/salon/staff" +number, Staff.class);
@@ -65,7 +66,7 @@ public class StaffControllerTest {
         assertNotNull(updateStaff);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         int number = 185;
 

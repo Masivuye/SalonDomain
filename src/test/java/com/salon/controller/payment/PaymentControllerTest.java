@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class PaymentControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllPayments() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class PaymentControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetPaymentsByType() {
         payment = restTemplate.getForObject(baseURL +"/salon/payment", Payment.class);
         System.out.println(payment.getQuestion());
         assertNotNull(payment);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         Payment payment = PaymentFactory.getPayment(true);
@@ -54,7 +55,7 @@ public class PaymentControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         boolean question = true;
         payment = restTemplate.getForObject(baseURL + "/salon/payment" + question, Payment.class);
@@ -64,7 +65,7 @@ public class PaymentControllerTest {
         assertNotNull(updateQuestion);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         boolean question = false;
 

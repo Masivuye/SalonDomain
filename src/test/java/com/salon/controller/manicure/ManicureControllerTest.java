@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class ManicureControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllManicure() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class ManicureControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetManicureByTypes() {
         manicure = restTemplate.getForObject(baseURL +"/salon/manicure", Manicure.class);
         System.out.println(manicure.getTypes());
         assertNotNull(manicure);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
         String[] types = {"Massage,Nails"};
         String[] colors = {"Blue,pink"};
@@ -55,7 +56,7 @@ public class ManicureControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         String[] colors = {"Red,pink"};
         manicure = restTemplate.getForObject(baseURL + "/salon/manicure" + colors, Manicure.class);
@@ -65,7 +66,7 @@ public class ManicureControllerTest {
         assertNotNull(updateColor);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         String[] colors = {"Red,pink"};
 

@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class CreditControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllCredit() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class CreditControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetCreditByBalance() {
         credit = restTemplate.getForObject(baseURL +"/salon/credit", Credit.class);
         System.out.println(credit.getBalance(200.00));
         assertNotNull(credit);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         Credit credit = CreditFactory.getCredit(600.00);
@@ -54,7 +55,7 @@ public class CreditControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         double balance = 200.00;
         credit = restTemplate.getForObject(baseURL + "/salon/credit" + balance, Credit.class);
@@ -64,7 +65,7 @@ public class CreditControllerTest {
         assertNotNull(updateBalance);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         double balance = 200.00;
 

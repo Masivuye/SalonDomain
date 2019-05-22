@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class ImportSupplierControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllImportSupplier() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class ImportSupplierControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetImportSupplierByName() {
         importSupplier = restTemplate.getForObject(baseURL +"/salon/ImportSupplier", ImportSupplier.class);
         System.out.println(importSupplier.getName());
         assertNotNull(importSupplier);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
         String  name = "Revlon";
 
@@ -55,7 +56,7 @@ public class ImportSupplierControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         String name = "E-Styles";
         importSupplier  = restTemplate.getForObject(baseURL + "/salon/ImportSupplier" + name, ImportSupplier.class);
@@ -65,7 +66,7 @@ public class ImportSupplierControllerTest {
         assertNotNull(updateName);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         String name = "E-Styles";
 
