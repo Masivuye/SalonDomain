@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -454,7 +451,7 @@
       <workItem from="1558370539257" duration="5348000" />
       <workItem from="1558378407978" duration="2515000" />
       <workItem from="1558433141924" duration="11879000" />
-      <workItem from="1558463590287" duration="9753000" />
+      <workItem from="1558463590287" duration="10374000" />
     </task>
     <servers />
   </component>
@@ -491,7 +488,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241771000" />
+    <option name="totallyTimeSpent" value="242392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +501,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="4" width="735" height="769" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
@@ -516,7 +512,7 @@
       <window_info content_ui="combo" id="Project" order="7" weight="0.70962965" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32861635" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32861635" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="5" />
