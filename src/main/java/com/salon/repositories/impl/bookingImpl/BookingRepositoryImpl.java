@@ -32,6 +32,14 @@ public class BookingRepositoryImpl implements BookingRepository {
 
     @Override
     public Booking update(Booking booking) {
+        /**bookingTable t = read.getDate()):
+         *
+         * if (t !=null){
+         * Booking updateBooking = new Bokking.Builder()
+         * .copy(t)
+         * .date(booking.getDate())
+         * .build();
+         * this.bookingTable.put(t.getDate(), updateBooking)**/
         bookingTable.put(booking.getDate(),booking);
         Booking booking1 = bookingTable.get(booking.getDate());
         return booking1;
