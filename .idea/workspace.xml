@@ -4,339 +4,237 @@
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/SecurityApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/SalonApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/SalonApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/bookingController/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/bookingController/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/bookingController/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/bookingController/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/BoysCutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/BoysCutController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/GirlsHairController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/GirlsHairController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/HairStyleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/HairStyleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/PromotionsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/PromotionsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/FullMassageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/FullMassageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/ManicureController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/ManicureController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/MassageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/MassageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/NailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/NailsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/UpperMassageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/UpperMassageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/ImportSupplierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/ImportSupplierController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/LocalSupplierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/LocalSupplierController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/OderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/OderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/SupplierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/SupplierController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CardPaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CardPaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CashPaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CashPaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/ChequeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/ChequeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CreditController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CreditController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/DebitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/DebitController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/CleanersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/CleanersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/HairStylerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/HairStylerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/StaffController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/bookingFactory/BookingFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/bookingFactory/BookingFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/bookingFactory/CustomerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/bookingFactory/CustomerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/BoysCutFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/BoysCutFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/GirlsHairFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/GirlsHairFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/HairStyleFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/HairStyleFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/PromotionsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/PromotionsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/FullMassageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/FullMassageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/ManicureFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/ManicureFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/MassageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/MassageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/NailsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/NailsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/UpperMassageFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/UpperMassageFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/ImportSupplierFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/ImportSupplierFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/LocalSuppliersFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/LocalSuppliersFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/OderFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/OderFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/SupplierFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/SupplierFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CardPaymentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CardPaymentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CashPaymentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CashPaymentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/ChequeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/ChequeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CreditFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CreditFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/DebitFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/DebitFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/PaymentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/PaymentFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/AdminFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/AdminFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/CleanersFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/CleanersFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/HairStylerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/HairStylerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/StaffFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/StaffFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/IRepository/IRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/IRepository/IRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/BookingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/BookingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/HairStyleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/HairStyleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/PromotionsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/PromotionsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/FullMassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/FullMassageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/ManicureRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/ManicureRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/MassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/MassageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/NailsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/NailsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/UpperMassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/UpperMassageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/ImportSupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/ImportSupplierRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/LocalSupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/LocalSupplierRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/OrderRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/SupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/SupplierRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CardPaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CardPaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CashPaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CashPaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/ChequeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/ChequeRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CreditRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CreditRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/DebitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/DebitRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/PaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/AdminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/AdminRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/CleanersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/CleanersRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/HairStylerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/HairStylerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/StaffRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/StaffRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/bookingService/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/bookingService/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/bookingService/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/bookingService/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/BoysCutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/BoysCutService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/GirlsHairService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/GirlsHairService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/HairStyleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/HairStyleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/PromotionsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/PromotionsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/FullMassageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/FullMassageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/ManicureService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/ManicureService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/MassageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/MassageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/NailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/NailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/UpperMassageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/UpperMassageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/ImportSupplierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/ImportSupplierService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/LocalSupplierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/LocalSupplierService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/SupplierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/SupplierService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CardPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CardPaymentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CashPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CashPaymentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/ChequeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/ChequeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CreditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CreditService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/DebitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/DebitService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/PaymentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/serviceInterface/ServiceInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/serviceInterface/ServiceInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/CleanersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/CleanersService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/HairStylerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/HairStylerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/StaffService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/StaffService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/salon.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/BookingControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/BookingControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/CustomerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/CustomerControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/BoysCutControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/BoysCutControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/GirlsHairControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/GirlsHairControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/HairStyleControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/HairStyleControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/PromotionsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/PromotionsControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/FullMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/FullMassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/ManicureControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/ManicureControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/MassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/MassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/NailsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/NailsControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/UpperMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/UpperMassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/ImportSupplierControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/ImportSupplierControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/LocalSupplierControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/LocalSupplierControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/OrderControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/OrderControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/SupplierControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/SupplierControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CardPaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CardPaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CashPaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CashPaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/ChequeControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/ChequeControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CreditControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CreditControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/DebitControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/DebitControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/PaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/PaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/AdminControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/AdminControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/CleanersControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/CleanersControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/HairStylerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/HairStylerControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/StaffControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/StaffControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/BookingFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/BookingFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/CustomerFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/CustomerFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/BoysCutFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/BoysCutFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/GirlsHairFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/GirlsHairFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/HairStyleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/HairStyleFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/PromotionsFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/PromotionsFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/FullMassageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/FullMassageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/ManicureFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/ManicureFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/MassageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/MassageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/NailsFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/NailsFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/UpperMassageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/UpperMassageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/ImportSupplierFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/ImportSupplierFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/LocalSuppliersFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/LocalSuppliersFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/OrderFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/OrderFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/SupplierFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/SupplierFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CardPaymentFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CardPaymentFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CashPaymentFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CashPaymentFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/ChequeFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/ChequeFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CreditFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CreditFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/DebitFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/DebitFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/PaymentFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/PaymentFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/repositoty/BookingRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/repositoty/BookingRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/AdminFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/AdminFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/CleanersFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/CleanersFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/HairStylerFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/HairStylerFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/StaffFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/StaffFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/SalonApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/bookingController/BookingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/bookingController/CustomerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/BoysCutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/GirlsHairController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/HairStyleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/PromotionsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/FullMassageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/ManicureController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/MassageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/NailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/manicureController/UpperMassageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/ImportSupplierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/LocalSupplierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/OderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/ordersController/SupplierController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CardPaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CashPaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/ChequeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/CreditController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/DebitController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/CleanersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/HairStylerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/StaffController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/UpperMassage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/bookingFactory/BookingFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/bookingFactory/CustomerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/BoysCutFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/GirlsHairFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/HairStyleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/hairFactory/PromotionsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/FullMassageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/ManicureFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/MassageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/NailsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/manicureFactory/UpperMassageFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/ImportSupplierFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/LocalSuppliersFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/OderFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/ordersFactory/SupplierFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CardPaymentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CashPaymentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/ChequeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/CreditFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/DebitFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/PaymentFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/AdminFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/CleanersFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/HairStylerFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/staffFactory/StaffFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/IRepository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/BookingRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/HairStyleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/PromotionsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/FullMassageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/ManicureRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/MassageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/NailsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/UpperMassageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/ImportSupplierRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/LocalSupplierRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/SupplierRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CardPaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CashPaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/ChequeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CreditRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/DebitRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/PaymentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/AdminRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/CleanersRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/HairStylerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/StaffRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/security/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/bookingService/BookingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/bookingService/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/BoysCutService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/GirlsHairService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/HairStyleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/PromotionsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/FullMassageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/ManicureService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/MassageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/NailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/manicureService/UpperMassageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/ImportSupplierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/LocalSupplierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/ordersService/SupplierService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CardPaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CashPaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/ChequeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CreditService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/DebitService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/serviceInterface/ServiceInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/AdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/CleanersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/HairStylerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/StaffService.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -351,11 +249,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
@@ -370,15 +268,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="279">
+              <caret line="33" column="95" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1627#1628#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -387,8 +283,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -490,6 +386,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -530,21 +428,31 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="salon" type="b2602c69:ProjectViewProjectNode" />
               <item name="salon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="staffController" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="salon" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -745,7 +653,8 @@
       <workItem from="1567428822291" duration="599000" />
       <workItem from="1567442529255" duration="2430000" />
       <workItem from="1569095574026" duration="3892000" />
-      <workItem from="1569185579157" duration="4764000" />
+      <workItem from="1569185579157" duration="7303000" />
+      <workItem from="1569307808710" duration="875000" />
     </task>
     <servers />
   </component>
@@ -782,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284753000" />
+    <option name="totallyTimeSpent" value="288167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -795,6 +704,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
       <window_info id="Designer" order="1" />
@@ -803,10 +713,10 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.26399395" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.2677761" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49848714" weight="0.04608295" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49848714" visible="true" weight="0.04608295" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5015129" side_tool="true" weight="0.32565284" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -819,7 +729,7 @@
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32872504" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32872504" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.04608295" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.04608295" />
       <window_info anchor="right" id="Theme Preview" order="0" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -1246,31 +1156,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SecurityApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SecurityApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1278,14 +1172,19 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="33" column="95" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
           </folding>
         </state>
       </provider>

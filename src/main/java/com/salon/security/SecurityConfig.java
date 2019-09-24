@@ -20,18 +20,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         cutter.inMemoryAuthentication()
                 .withUser("Masivuye")
                 .password(encoder().encode("Mass1"))
-                .roles("SCE")
+                .roles("Manager")
                 .and()
-                .withUser("Manager")
+                .withUser("Admin")
                 .password("Man1")
-                .roles("Manager");
+                .roles("Admin");
     }
 
     @Override
     protected void configure(HttpSecurity http)
         throws Exception{
         http.authorizeRequests()
-                .antMatchers(HttpMethod.POST,"SalonDomain/Warning/**/create/**").hasRole("Manager")
+                .antMatchers(HttpMethod.POST,"SalonDomain/Warning/**/create/**").hasRole("Admin")
                 .anyRequest()
                 .authenticated().and()
                 .httpBasic()
@@ -44,6 +44,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
     @Bean
     public PasswordEncoder encoder(){
-        return new BCryptPasswordEncoder();
+        final BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+        return bCryptPasswordEncoder;
     }
 }
