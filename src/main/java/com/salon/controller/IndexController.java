@@ -8,13 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class IndexController {
-    @GetMapping(value ={"/","/salon"})
-    public ResponseEntity<String> home(){
-        return  new ResponseEntity<>("Welcome to Masivuye's Salon", HttpStatus.OK);
+    @GetMapping
+    @ResponseBody
+    public String getSalon(){
+        return "Welcome to Masivuye's Salon";
     }
-    /*@ResponseBody
-    public String getHome() {
-        return " Hello World ";
-    }*/
+
 
 }

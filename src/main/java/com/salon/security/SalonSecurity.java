@@ -12,26 +12,26 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 
 @Configuration
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+public class SalonSecurity extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder cutter)
         throws Exception{
         cutter.inMemoryAuthentication()
                 .withUser("Masivuye")
-                .password(encoder().encode("Mass1"))
+                .password("{noop}Mas6274#")
                 .roles("Manager")
                 .and()
                 .withUser("Admin")
-                .password("Man1")
-                .roles("Admin");
+                .password("{noop}12345")
+                .roles("Admin","Manager");
     }
 
     @Override
     protected void configure(HttpSecurity http)
         throws Exception{
         http.authorizeRequests()
-                .antMatchers(HttpMethod.POST,"SalonDomain/Warning/**/create/**").hasRole("Admin")
+                .antMatchers(HttpMethod.POST,"SalonDomain/Warning/**/create/**").hasRole("Manager")
                 .anyRequest()
                 .authenticated().and()
                 .httpBasic()

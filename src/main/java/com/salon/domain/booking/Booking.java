@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import java.util.Date;
 import java.util.Set;
-
 @EntityScan
 public class Booking {
     private Date date;
