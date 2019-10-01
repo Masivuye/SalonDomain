@@ -3,12 +3,15 @@ package com.salon.domain.booking;
 import com.salon.domain.hair.HairStyle;
 import com.salon.domain.manicure.Manicure;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.annotation.Id;
 
+import javax.persistence.Entity;
 import java.util.Set;
 
-@EntityScan
+@Entity
 public class Customer {
     private String name;
+    @Id
     private int custNumber;
 
     private Set<Booking> booking;

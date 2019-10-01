@@ -2,7 +2,7 @@ package com.salon.controller.paymentController;
 
 import com.salon.domain.payment.Payment;
 import com.salon.factory.paymentFactory.PaymentFactory;
-import com.salon.serviceImpl.paymentServiceImpl.PaymentServiceImpl;
+import com.salon.service.Impl.paymentServiceImpl.PaymentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,8 +18,8 @@ public class PaymentController {
 
     @GetMapping("/create{question}")
     public @ResponseBody
-    Payment create(@PathVariable boolean question){
-        Payment payment = PaymentFactory.getPayment(question);
+    Payment create(@PathVariable String type){
+        Payment payment = PaymentFactory.getPayment(type);
         return paymentService.create(payment);
     }
 

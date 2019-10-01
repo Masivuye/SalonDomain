@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.hairImpl;
 
 
@@ -8,7 +9,8 @@ import org.springframework.stereotype.Repository;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-@Repository
+@Repository*/
+/**//*
 public class PromotionsRepositoryImpl implements PromotionsRepository {
 
     private static PromotionsRepositoryImpl repository = null;
@@ -55,3 +57,4 @@ public class PromotionsRepositoryImpl implements PromotionsRepository {
         return promotions;
     }
 }
+*/

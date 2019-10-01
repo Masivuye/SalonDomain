@@ -5,6 +5,6 @@ import com.salon.service.serviceInterface.ServiceInterface;
 
 import java.util.Set;
 
-public interface CreditService extends ServiceInterface<Credit,Double> {
+public interface CreditService extends ServiceInterface<Credit,String> {
     Set<Credit>  getAll();
 }

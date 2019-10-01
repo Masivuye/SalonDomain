@@ -2,7 +2,7 @@ package com.salon.controller.staffController;
 
 import com.salon.domain.staff.HairStyler;
 import com.salon.factory.staffFactory.HairStylerFactory;
-import com.salon.serviceImpl.staffServiceImpl.HairStylerServiceImpl;
+import com.salon.service.Impl.staffServiceImpl.HairStylerServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,6 +25,6 @@ public class HairStylerController {
     @GetMapping("/getAll")
     @ResponseBody
     public Set<HairStyler> getAll(){
-        return hairStylerService.getAll();
+        return (Set<HairStyler>) hairStylerService.getAll();
     }
 }

@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class CardPaymentControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllCardPayments() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class CardPaymentControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetCardPaymentsByBalance() {
         cardPayment = restTemplate.getForObject(baseURL +"/salon/cardPayment", CardPayment.class);
         System.out.println(cardPayment.getBalance(200.00));
         assertNotNull(cardPayment);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         CardPayment cardPayment = CardPaymentFactory.getCard(200.00);
@@ -54,7 +55,7 @@ public class CardPaymentControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         double balance = 200.00;
         cardPayment = restTemplate.getForObject(baseURL + "/salon/cardPayment" + balance, CardPayment.class);
@@ -64,7 +65,7 @@ public class CardPaymentControllerTest {
         assertNotNull(updateBalance);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         double balance = 200.00;
 

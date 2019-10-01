@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class PromotionsControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllPromotions() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class PromotionsControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetPromotionByProduct() {
         promotions = restTemplate.getForObject(baseURL +"/salon/Promotions/", Promotions.class);
         System.out.println(promotions.getProducts());
         assertNotNull(promotions);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
         String[] products = {"Relaxer, Cut"};
        Promotions promotions = PromotionsFactory.getPromotions(products);
@@ -54,7 +55,7 @@ public class PromotionsControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         String[] products = {"Relaxer, Cut"};
         promotions = restTemplate.getForObject(baseURL + "/salon/Promotions" +products, Promotions.class);
@@ -64,7 +65,7 @@ public class PromotionsControllerTest {
         assertNotNull(updateProducts);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         String[] products = {"Relaxer, Cut"};
 

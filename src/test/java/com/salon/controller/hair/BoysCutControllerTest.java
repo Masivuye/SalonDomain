@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class BoysCutControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllBoysCut() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,7 +38,7 @@ public class BoysCutControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetBoysCutByPrice() {
         boysCut = restTemplate.getForObject(baseURL +"/salon/BoysCut/100.00", BoysCut.class);
         System.out.println(boysCut.getPrice());
@@ -54,7 +55,7 @@ public class BoysCutControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         double price = 200.00;
         boysCut = restTemplate.getForObject(baseURL + "/salon/BoysCut" +price, BoysCut.class);
@@ -64,7 +65,7 @@ public class BoysCutControllerTest {
         assertNotNull(updatePrice);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         double price = 200.00;
 

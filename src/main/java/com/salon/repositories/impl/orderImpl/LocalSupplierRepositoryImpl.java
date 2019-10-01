@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.orderImpl;
 
 import com.salon.domain.orders.LocalSuppliers;
@@ -7,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-@Repository
+@Repository*/
+/**//*
 public class LocalSupplierRepositoryImpl implements LocalSupplierRepository {
 
     private static LocalSupplierRepositoryImpl repository = null;
@@ -53,3 +55,4 @@ public class LocalSupplierRepositoryImpl implements LocalSupplierRepository {
         return localSuppliers;
     }
 }
+*/

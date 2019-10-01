@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.staffImpl;
 
 import com.salon.domain.staff.Admin;
@@ -7,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-@Repository
+*/
+/**//*
 public class AdminRepositoryImpl implements AdminRepository {
 
     private static AdminRepositoryImpl repository = null;
@@ -52,3 +54,4 @@ public class AdminRepositoryImpl implements AdminRepository {
         return null;
     }
 }
+*/

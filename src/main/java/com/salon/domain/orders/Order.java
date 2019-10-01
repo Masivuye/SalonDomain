@@ -1,11 +1,16 @@
 package com.salon.domain.orders;
 import com.salon.domain.staff.Admin;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.annotation.Id;
 
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Order {
+    @Id
     private String name;
+    @OneToMany
     private double price;
 
     private Set<Admin> admin;

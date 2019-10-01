@@ -1,11 +1,14 @@
 package com.salon.domain.orders;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.annotation.Id;
 
+import javax.persistence.Entity;
 import java.util.Set;
-@EntityScan
+@Entity
 public class ImportSupplier {
     private String name;
+    @Id
     private int shipedNum;
 
     private Set<Supplier> suppliers;

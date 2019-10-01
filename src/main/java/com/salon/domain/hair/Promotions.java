@@ -2,10 +2,13 @@ package com.salon.domain.hair;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Arrays;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Promotions {
+    @Id
     private String[] products;
 
     private Set<HairStyle> hairStyles;

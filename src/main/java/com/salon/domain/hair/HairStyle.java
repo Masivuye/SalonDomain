@@ -3,11 +3,14 @@ package com.salon.domain.hair;
 import com.salon.domain.booking.Customer;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Arrays;
 import java.util.Set;
-@EntityScan
+@Entity
 public class HairStyle {
     private double price;
+    @Id
     private String[] types;
     private Set<Customer> customer;
     private Set<Promotions>promotions;

@@ -2,7 +2,7 @@ package com.salon.controller.hairController;
 
 import com.salon.domain.hair.GirlsHair;
 import com.salon.factory.hairFactory.GirlsHairFactory;
-import com.salon.serviceImpl.hairServiceImpl.GirlsHairServiceImpl;
+import com.salon.service.Impl.hairServiceImpl.GirlsHairServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

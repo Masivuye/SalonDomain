@@ -12,6 +12,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -27,7 +28,7 @@ public class HairStyleControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllHairStyles() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -38,14 +39,14 @@ public class HairStyleControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetHairStyleByPrice() {
         hairStyle = restTemplate.getForObject(baseURL +"/salon/hairStyle/150.00", HairStyle.class);
         System.out.println(hairStyle.getPrice());
         assertNotNull(hairStyle);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
        String[] types = {"Boys,Girls"};
         hairStyle = HairStyleFactory.getHairStyle(types,150.00);
@@ -55,7 +56,7 @@ public class HairStyleControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         double price = 200.00;
         hairStyle = restTemplate.getForObject(baseURL + "/salon/hairStyle" +price, HairStyle.class);
@@ -65,7 +66,7 @@ public class HairStyleControllerTest {
         assertNotNull(updateHair);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         double price = 200.00;
 

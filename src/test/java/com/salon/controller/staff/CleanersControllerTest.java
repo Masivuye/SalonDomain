@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class CleanersControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllCleaners() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class CleanersControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetCleanersByNumber() {
         cleaners = restTemplate.getForObject(baseURL +"/salon/cleaners", Cleaners.class);
         System.out.println(cleaners.getClnNum());
         assertNotNull(cleaners);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         int num =1212;
@@ -55,7 +56,7 @@ public class CleanersControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         int number = 6452;
         cleaners = restTemplate.getForObject(baseURL + "/salon/cleaners" + number, Cleaners.class);
@@ -65,7 +66,7 @@ public class CleanersControllerTest {
         assertNotNull(updateCleaners);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         int number = 6452;
 

@@ -8,10 +8,10 @@ import org.junit.Test;
 public class PaymentFactoryTest {
     @Test
     public void getPayment(){
-        boolean question = false;
-        Payment payment = PaymentFactory.getPayment(false);
-        Assert.assertFalse(false);
-        System.out.println(payment.getQuestion());
+        String type = " ";
+        Payment payment = PaymentFactory.getPayment(" ");
+        Assert.assertEquals(" "," "," ");
+        System.out.println(payment.getType());
 
     }
 }

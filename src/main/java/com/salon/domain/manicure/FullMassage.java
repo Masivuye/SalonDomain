@@ -2,12 +2,13 @@ package com.salon.domain.manicure;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
-@EntityScan
+@Entity
 public class FullMassage {
+    @Id
     private double price;
-
-
 
     private Set<Massage> massages;
 

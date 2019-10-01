@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import java.util.Set;
 @EntityScan
 public class Payment {
-    private boolean question;
+    private String type;
 
 
     private Set<CardPayment> cardPayments;
@@ -18,26 +18,33 @@ public class Payment {
     }
 
     private Payment(Builder builder) {
-        this.question = builder.question;
+        this.type = builder.type;
 
     }
 
-    public boolean getQuestion()
-    { if(question==true){
-
+    public String getType()
+    { if(type.equals(cardPayments))
+        {
+            System.out.println(cardPayments);
+        }
+        else
+    {
+        System.out.println(cashPayments);
     }
-        return question;
+
+
+        return type;
     }
 
 
 
     public static class Builder {
-        private boolean question;
+        private String type;
 
 
 
-        public Builder question(boolean question) {
-            this.question = question;
+        public Builder type(String type) {
+            this.type = type;
             return this;
         }
 
@@ -50,7 +57,7 @@ public class Payment {
     @Override
     public String toString() {
         return "Payment{" +
-                "question=" + question +
+                "question=" + type +
                 '}';
     }
 }

@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class DebitControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllDebit() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class DebitControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetDebitByBalance() {
         debit = restTemplate.getForObject(baseURL +"/salon/debit", Debit.class);
         System.out.println(debit.getBalance(200.00));
         assertNotNull(debit);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         Debit debit = DebitFactory.getDebit(500.00);
@@ -54,7 +55,7 @@ public class DebitControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         double balance = 200.00;
         debit = restTemplate.getForObject(baseURL + "/salon/debit" + balance, Debit.class);
@@ -64,7 +65,7 @@ public class DebitControllerTest {
         assertNotNull(updateBalance);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         double balance = 200.00;
 

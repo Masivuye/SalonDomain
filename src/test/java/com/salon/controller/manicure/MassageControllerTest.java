@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class MassageControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllMassage() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class MassageControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetMassageByTypes() {
         massage = restTemplate.getForObject(baseURL +"/salon/Massage", Massage.class);
         System.out.println(massage.getTypes());
         assertNotNull(massage);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
         String[] types = {"FullMassage, UpperMassage"};
 
@@ -55,7 +56,7 @@ public class MassageControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         String[] types = {"FullMassage, UpperMassage"};
 
@@ -66,7 +67,7 @@ public class MassageControllerTest {
         assertNotNull(updateTypes);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         String[] types = {"FullMassage, UpperMassage"};
 

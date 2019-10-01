@@ -5,6 +5,6 @@ import com.salon.service.serviceInterface.ServiceInterface;
 
 import java.util.Set;
 
-public interface ChequeService extends ServiceInterface<Cheque,Double> {
+public interface ChequeService extends ServiceInterface<Cheque,String> {
     Set<Cheque> getAll();
 }

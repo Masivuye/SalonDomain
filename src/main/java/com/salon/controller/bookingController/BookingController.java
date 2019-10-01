@@ -5,7 +5,7 @@ import com.salon.domain.booking.Booking;
 import com.salon.factory.bookingFactory.BookingFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.salon.serviceImpl.bookingServiceImpl.BookingServiceImpl;
+import com.salon.service.Impl.bookingServiceImpl.BookingServiceImpl;
 
 import java.util.Date;
 import java.util.Set;

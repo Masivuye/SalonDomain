@@ -1,11 +1,14 @@
 package com.salon.domain.staff;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
-@EntityScan
+@Entity
 public class HairStyler {
     private String name;
+    @Id
     private int stylnum;
 
     private Set<Staff> staff;

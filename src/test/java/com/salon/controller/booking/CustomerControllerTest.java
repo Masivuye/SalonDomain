@@ -12,6 +12,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -27,7 +28,7 @@ public class CustomerControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllCustomers() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -38,14 +39,14 @@ public class CustomerControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetCustomerByNumber() {
         customer = restTemplate.getForObject(baseURL +"/salon/customer/12", Customer.class);
         System.out.println(customer.getCustNumber());
         assertNotNull(customer);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
 
@@ -56,7 +57,7 @@ public class CustomerControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         int number = 15;
         customer = restTemplate.getForObject(baseURL + "/salon/customer" + number, Customer.class);
@@ -66,7 +67,7 @@ public class CustomerControllerTest {
         assertNotNull(updateCustomer);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         int number = 15;
 

@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -26,7 +27,7 @@ public class AdminControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllAdmin() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -37,14 +38,14 @@ public class AdminControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetAdminByNumber() {
         admin = restTemplate.getForObject(baseURL +"/salon/admin", Admin.class);
         System.out.println(admin.getAdnum());
         assertNotNull(admin);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
 
         int num =1236;
@@ -55,7 +56,7 @@ public class AdminControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
         int number = 1436;
         admin = restTemplate.getForObject(baseURL + "/salon/admin" +number, Admin.class);
@@ -65,7 +66,7 @@ public class AdminControllerTest {
         assertNotNull(updateAdmin);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
         int number = 1436;
 

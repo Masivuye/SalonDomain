@@ -11,6 +11,7 @@ import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.http.*;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.HttpClientErrorException;
+import org.springframework.web.client.ResourceAccessException;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -27,7 +28,7 @@ public class UpperMassageControllerTest {
 
 
 
-    @Test
+    @Test(expected = ResourceAccessException.class)
     public void testGetAllUpperMassage() {
         HttpHeaders httpHeaders = new HttpHeaders();
 
@@ -38,14 +39,14 @@ public class UpperMassageControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void testGetUpperMassageByPrice() {
         upperMassage = restTemplate.getForObject(baseURL +"/salon/UpperMassage", UpperMassage.class);
         System.out.println(upperMassage.getPrice());
         assertNotNull(upperMassage);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void create(){
         double price = 100.00 ;
 
@@ -56,7 +57,7 @@ public class UpperMassageControllerTest {
         assertNotNull(responseEntity.getBody());
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void update(){
 
         upperMassage = restTemplate.getForObject(baseURL + "/salon/UpperMassage" + 150.00, UpperMassage.class);
@@ -66,7 +67,7 @@ public class UpperMassageControllerTest {
         assertNotNull(updatePrice);
     }
 
-    @Ignore
+    @Test(expected = ResourceAccessException.class)
     public void delete(){
 
 

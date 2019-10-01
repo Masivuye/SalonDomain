@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.bookingImpl;
 
 
@@ -32,24 +33,35 @@ public class BookingRepositoryImpl implements BookingRepository {
 
     @Override
     public Booking update(Booking booking) {
+        */
+/**bookingTable t = read.getDate()):
+         *
+         * if (t !=null){
+         * Booking updateBooking = new Bokking.Builder()
+         * .copy(t)
+         * .date(booking.getDate())
+         * .build();
+         * this.bookingTable.put(t.getDate(), updateBooking)**//*
+
         bookingTable.put(booking.getDate(),booking);
         Booking booking1 = bookingTable.get(booking.getDate());
         return booking1;
     }
 
     @Override
-    public void delete(Date date) {
-        bookingTable.remove(date);
-
+    public void delete(Integer integer) {
+        bookingTable.remove(integer);
     }
 
     @Override
-    public Booking read(Date date) {
-        Booking booking = bookingTable.get(date);
+    public Booking read(Integer integer) {
+        Booking booking = bookingTable.get(integer);
         return booking;
     }
+
     @Override
     public Set<Booking> getAll() {
         return null;
     }
 }
+*/

@@ -3,13 +3,15 @@ package com.salon.domain.booking;
 
 import com.salon.domain.staff.Staff;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.data.annotation.Id;
 
+import javax.persistence.Entity;
 import java.util.Date;
 import java.util.Set;
-
-@EntityScan
+@Entity
 public class Booking {
     private Date date;
+    @Id
     private int bookingNumber;
     private Customer customer;
     private Set<Staff> staff;
@@ -25,7 +27,7 @@ public class Booking {
         return date;
     }
 
-    public int bookingNumber() {
+    public int getBookingNumber() {
         return bookingNumber;
     }
 
