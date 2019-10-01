@@ -1,21 +1,23 @@
 package com.salon.service.Impl.ordersServiceImpl;
 
 import com.salon.domain.orders.Supplier;
+import com.salon.repositories.ordersRepository.SupplierRepository;
 import com.salon.service.ordersService.SupplierService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class SupplierServiceImpl implements SupplierService {
 
     private static SupplierServiceImpl service = null;
-    private Map<Integer,Supplier> supplierTable;
+    @Autowired
+    private SupplierRepository supplierTable;
 
     private SupplierServiceImpl() {
-        supplierTable = new HashMap<>();
-
     }
     public static SupplierService getService(){
         if(service == null) service = new SupplierServiceImpl();
@@ -24,32 +26,30 @@ public class SupplierServiceImpl implements SupplierService {
 
     @Override
     public Set<Supplier> getAll() {
-        return null;
+        return (Set<Supplier>) this.supplierTable.findAll();
     }
 
     @Override
     public Supplier create(Supplier supplier) {
-        supplierTable.put(supplier.getSupNum(),supplier);
-        Supplier supplier1 = supplierTable.get(supplier.getSupNum());
+        Supplier supplier1 = supplierTable.save(supplier);
         return supplier1;
     }
 
     @Override
     public Supplier update(Supplier supplier) {
-        supplierTable.put(supplier.getSupNum(),supplier);
-        Supplier supplier1 = supplierTable.get(supplier.getSupNum());
+        Supplier supplier1 = supplierTable.save(supplier);
         return supplier1;
     }
 
     @Override
     public void delete(Integer s) {
-        supplierTable.remove(s);
+        supplierTable.deleteById(s);
 
     }
 
     @Override
     public Supplier read(Integer s) {
-        Supplier supplier = supplierTable.get(s);
-        return supplier;
+        Optional<Supplier> supplier = this.supplierTable.findById(s);
+        return supplier.orElse(null);
     }
 }

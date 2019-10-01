@@ -1,21 +1,23 @@
 package com.salon.service.Impl.manicureServiceImpl;
 
 import com.salon.domain.manicure.UpperMassage;
+import com.salon.repositories.manicureRepository.UpperMassageRepository;
 import com.salon.service.manicureService.UpperMassageService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class UpperMassageServiceImpl implements UpperMassageService {
 
     private static UpperMassageServiceImpl service = null;
-    private Map<Double,UpperMassage> upperMassageTable;
+    @Autowired
+    private UpperMassageRepository upperMassageTable;
 
     private UpperMassageServiceImpl() {
-        upperMassageTable = new HashMap<>();
-
     }
     public static UpperMassageService getService(){
         if(service == null) service = new UpperMassageServiceImpl();
@@ -24,33 +26,31 @@ public class UpperMassageServiceImpl implements UpperMassageService {
 
     @Override
     public Set<UpperMassage> getAll() {
-        return null;
+        return (Set<UpperMassage>) this.upperMassageTable.findAll();
     }
 
     @Override
     public UpperMassage create(UpperMassage upperMassage) {
-        upperMassageTable.put(upperMassage.getPrice(),upperMassage);
-        UpperMassage upperMassage1 = upperMassageTable.get(upperMassage.getPrice());
+        UpperMassage upperMassage1 = upperMassageTable.save(upperMassage);
         return upperMassage1;
     }
 
     @Override
     public UpperMassage update(UpperMassage upperMassage) {
-        upperMassageTable.put(upperMassage.getPrice(),upperMassage);
-        UpperMassage upperMassage1 = upperMassageTable.get(upperMassage.getPrice());
+        UpperMassage upperMassage1 = upperMassageTable.save(upperMassage);
         return upperMassage1;
     }
 
     @Override
     public void delete(Double aDouble) {
-        upperMassageTable.remove(aDouble);
+        upperMassageTable.deleteById(aDouble);
 
     }
 
     @Override
-    public UpperMassage read(Double aDouble) {
-        UpperMassage upperMassage = upperMassageTable.get(aDouble);
-        return upperMassage;
+    public UpperMassage read(Double s) {
+        Optional<UpperMassage> upperMassage = this.upperMassageTable.findById(s);
+        return upperMassage.orElse(null);
     }
 
 

@@ -2,20 +2,24 @@ package com.salon.service.Impl.hairServiceImpl;
 
 
 import com.salon.domain.hair.GirlsHair;
+import com.salon.repositories.hairRepository.GirlsHairRepository;
 import com.salon.service.hairService.GirlsHairService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class GirlsHairServiceImpl implements GirlsHairService {
 
     private static GirlsHairServiceImpl service = null;
-    private Map<String[],GirlsHair> girlsHairTable;
+    @Autowired
+    private GirlsHairRepository girlsHairTable;
 
     private GirlsHairServiceImpl() {
-        girlsHairTable = new HashMap<>();
+
 
     }
     public static GirlsHairService getService(){
@@ -25,32 +29,32 @@ public class GirlsHairServiceImpl implements GirlsHairService {
 
     @Override
     public Set<GirlsHair> getAll() {
-        return null;
+        return (Set<GirlsHair>) this.girlsHairTable.findAll();
     }
 
     @Override
     public GirlsHair create(GirlsHair girlsHair) {
-        girlsHairTable.put(girlsHair.getTypes(),girlsHair);
-        GirlsHair girlsHair1 = girlsHairTable.get(girlsHair.getTypes());
+
+        GirlsHair girlsHair1 = girlsHairTable.save(girlsHair);
         return girlsHair1;
     }
 
     @Override
     public GirlsHair update(GirlsHair girlsHair) {
-        girlsHairTable.put(girlsHair.getTypes(),girlsHair);
-        GirlsHair girlsHair1 = girlsHairTable.get(girlsHair.getTypes());
+
+        GirlsHair girlsHair1 = girlsHairTable.save(girlsHair);
         return girlsHair1;
     }
 
     @Override
     public void delete(String[] s) {
-        girlsHairTable.remove(s);
+        girlsHairTable.deleteById(s);
 
     }
 
     @Override
     public GirlsHair read(String[] s) {
-        GirlsHair girlsHair = girlsHairTable.get(s);
-        return girlsHair;
+        Optional<GirlsHair> girlsHair = this.girlsHairTable.findById(s);
+        return girlsHair.orElse(null);
     }
 }

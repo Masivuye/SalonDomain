@@ -1,21 +1,23 @@
 package com.salon.service.Impl.paymentServiceImpl;
 
 import com.salon.domain.payment.Credit;
+import com.salon.repositories.paymentRepository.CreditRepository;
 import com.salon.service.paymentService.CreditService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class CreditServiceImpl implements CreditService {
 
     private static CreditServiceImpl service = null;
-    private Map<Double,Credit> creditTable;
+    @Autowired
+    private CreditRepository creditTable;
 
     private CreditServiceImpl() {
-        creditTable = new HashMap<>();
-
     }
     public static CreditService getService(){
         if(service == null) service = new CreditServiceImpl();
@@ -24,32 +26,30 @@ public class CreditServiceImpl implements CreditService {
 
     @Override
     public Set<Credit> getAll() {
-        return null;
+        return (Set<Credit>) this.creditTable.findAll();
     }
 
     @Override
     public Credit create(Credit credit) {
-        creditTable.put(credit.getBalance(0.0),credit);
-        Credit credit1 = creditTable.get(credit.getBalance(0.0));
+        Credit credit1 = creditTable.save(credit);
         return credit1;
     }
 
     @Override
     public Credit update(Credit credit) {
-        creditTable.put(credit.getBalance(0.0),credit);
-        Credit credit1 = creditTable.get(credit.getBalance(0.0));
+        Credit credit1 = creditTable.save(credit);
         return credit1;
     }
 
     @Override
-    public void delete(Double aDouble) {
-        creditTable.remove(aDouble);
+    public void delete(String a) {
+        creditTable.deleteById(a);
 
     }
 
     @Override
-    public Credit read(Double aDouble) {
-        Credit credit = creditTable.get(aDouble);
-        return credit;
+    public Credit read(String s) {
+        Optional<Credit> credit = this.creditTable.findById(s);
+        return credit.orElse(null);
     }
 }

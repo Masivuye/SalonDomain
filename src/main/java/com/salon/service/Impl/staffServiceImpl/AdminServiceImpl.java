@@ -1,19 +1,23 @@
 package com.salon.service.Impl.staffServiceImpl;
 
 import com.salon.domain.staff.Admin;
+import com.salon.repositories.staffRepository.AdminRepository;
 import com.salon.service.staffService.AdminService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class AdminServiceImpl implements AdminService {
 
     private static AdminServiceImpl service = null;
-    private Map<Integer,Admin> adminTable;
+    @Autowired
+    private AdminRepository adminTable;
 
-    private AdminServiceImpl() { adminTable = new HashMap<>();
+    private AdminServiceImpl() {
 
     }
     public static AdminService getService(){
@@ -23,32 +27,30 @@ public class AdminServiceImpl implements AdminService {
 
     @Override
     public Set<Admin> getAll() {
-        return null;
+        return (Set<Admin>) this.adminTable.findAll();
     }
 
     @Override
     public Admin create(Admin admin) {
-        adminTable.put(admin.getAdnum(),admin);
-        Admin admin1 = adminTable.get(admin.getAdnum());
+        Admin admin1 = adminTable.save(admin);
         return admin1;
     }
 
     @Override
     public Admin update(Admin admin) {
-        adminTable.put(admin.getAdnum(),admin);
-        Admin admin1 = adminTable.get(admin.getAdnum());
+        Admin admin1 = adminTable.save(admin);
         return admin1;
     }
 
     @Override
     public void delete(Integer integer) {
-        adminTable.remove(integer);
+        adminTable.deleteById( integer);
 
     }
 
     @Override
-    public Admin read(Integer integer) {
-        Admin admin = (Admin) getAll();
-        return null;
+    public Admin read(Integer s) {
+        Optional<Admin> admin = this.adminTable.findById(s);
+        return admin.orElse(null);
     }
 }

@@ -41,14 +41,14 @@ public class PaymentControllerTest {
     @Test(expected = ResourceAccessException.class)
     public void testGetPaymentsByType() {
         payment = restTemplate.getForObject(baseURL +"/salon/payment", Payment.class);
-        System.out.println(payment.getQuestion());
+        System.out.println(payment.getType());
         assertNotNull(payment);
     }
 
     @Test(expected = ResourceAccessException.class)
     public void create(){
 
-        Payment payment = PaymentFactory.getPayment(true);
+        Payment payment = PaymentFactory.getPayment(" ");
 
         ResponseEntity<Payment> responseEntity = restTemplate.postForEntity(baseURL + "/create" , payment, Payment.class);
         assertNotNull(responseEntity);

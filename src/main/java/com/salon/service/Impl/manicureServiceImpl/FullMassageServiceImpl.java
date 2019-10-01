@@ -1,20 +1,23 @@
 package com.salon.service.Impl.manicureServiceImpl;
 
 import com.salon.domain.manicure.FullMassage;
+import com.salon.repositories.manicureRepository.FullMassageRepository;
 import com.salon.service.manicureService.FullMassageService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class FullMassageServiceImpl implements FullMassageService {
 
     private static FullMassageServiceImpl service = null;
-    private Map<Double,FullMassage> fullMassageTable;
+    @Autowired
+    private FullMassageRepository fullMassageTable;
 
     private FullMassageServiceImpl() {
-        fullMassageTable = new HashMap<>();
 
     }
     public static FullMassageService getService(){
@@ -23,33 +26,31 @@ public class FullMassageServiceImpl implements FullMassageService {
     }
     @Override
     public Set<FullMassage> getAll() {
-        return null;
+        return (Set<FullMassage>) this.fullMassageTable.findAll();
     }
 
     @Override
     public FullMassage create(FullMassage fullMassage) {
-        fullMassageTable.put(fullMassage.getPrice(),fullMassage);
-        FullMassage fullMassage1 = fullMassageTable.get(fullMassage.getPrice());
+        FullMassage fullMassage1 = fullMassageTable.save(fullMassage);
         return fullMassage1;
     }
 
     @Override
     public FullMassage update(FullMassage fullMassage) {
-        fullMassageTable.put(fullMassage.getPrice(),fullMassage);
-        FullMassage fullMassage1 = fullMassageTable.get(fullMassage.getPrice());
+        FullMassage fullMassage1 = fullMassageTable.save(fullMassage);
         return fullMassage1;
     }
 
     @Override
     public void delete(Double aDouble) {
-        fullMassageTable.remove(aDouble);
+        fullMassageTable.deleteById(aDouble);
 
     }
 
     @Override
-    public FullMassage read(Double aDouble) {
-        FullMassage fullMassage = fullMassageTable.get(aDouble);
-        return fullMassage;
+    public FullMassage read(Double s) {
+        Optional<FullMassage> fullMassage= this.fullMassageTable.findById(s);
+        return fullMassage.orElse(null);
     }
 
 

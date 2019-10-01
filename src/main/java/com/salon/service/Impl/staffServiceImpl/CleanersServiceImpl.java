@@ -1,20 +1,23 @@
 package com.salon.service.Impl.staffServiceImpl;
 
 import com.salon.domain.staff.Cleaners;
+import com.salon.repositories.staffRepository.CleanersRepository;
 import com.salon.service.staffService.CleanersService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class CleanersServiceImpl implements CleanersService {
 
     private static CleanersServiceImpl service = null;
-    private Map<String,Cleaners> cleanersTable;
+    @Autowired
+    private CleanersRepository cleanersTable;
 
     private CleanersServiceImpl() {
-        cleanersTable = new HashMap<>();
 
     }
     public static CleanersService getService(){
@@ -24,32 +27,30 @@ public class CleanersServiceImpl implements CleanersService {
 
     @Override
     public Set<Cleaners> getAll() {
-        return null;
+        return (Set<Cleaners>) this.cleanersTable.findAll();
     }
 
     @Override
     public Cleaners create(Cleaners cleaners) {
-        cleanersTable.put(cleaners.getName(),cleaners);
-        Cleaners cleaners1 = cleanersTable.get(cleaners.getName());
+        Cleaners cleaners1 = cleanersTable.save(cleaners);
         return cleaners1;
     }
 
     @Override
     public Cleaners update(Cleaners cleaners) {
-        cleanersTable.put(cleaners.getName(),cleaners);
-        Cleaners cleaners1 = cleanersTable.get(cleaners.getName());
+        Cleaners cleaners1 = cleanersTable.save(cleaners);
         return cleaners1;
     }
 
     @Override
     public void delete(String s) {
-        cleanersTable.remove(s);
+        cleanersTable.deleteById(s);
 
     }
 
     @Override
     public Cleaners read(String s) {
-        Cleaners cleaners = cleanersTable.get(s);
-        return cleaners;
+        Optional<Cleaners> cleaners = this.cleanersTable.findById(s);
+        return cleaners.orElse(null);
     }
 }

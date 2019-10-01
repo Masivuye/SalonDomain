@@ -2,12 +2,15 @@ package com.salon.domain.staff;
 
 
 import com.salon.domain.booking.Booking;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Staff {
     private String[] names;
+    @Id
     private int staffNumber;
 
     private Set<Booking> booking;

@@ -1,20 +1,22 @@
 package com.salon.service.Impl.staffServiceImpl;
 
 import com.salon.domain.staff.HairStyler;
+import com.salon.repositories.staffRepository.HairStylerRepository;
 import com.salon.service.staffService.HairStylerService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.List;
+import java.util.Optional;
+
 @Service
 public class HairStylerServiceImpl implements HairStylerService {
 
     private static HairStylerServiceImpl service = null;
-    private Map<String,HairStyler> hairStylerTable;
+    @Autowired
+    private HairStylerRepository hairStylerTable;
 
-    private HairStylerServiceImpl() {
-        hairStylerTable = new HashMap<>();
+    private HairStylerServiceImpl(){
 
     }
     public static HairStylerService getService(){
@@ -23,33 +25,31 @@ public class HairStylerServiceImpl implements HairStylerService {
     }
 
     @Override
-    public Set<HairStyler> getAll() {
-        return null;
+    public List<HairStyler> getAll() {
+        return  this.hairStylerTable.findAll();
     }
 
     @Override
     public HairStyler create(HairStyler hairStyler) {
-        hairStylerTable.put(hairStyler.getName(),hairStyler);
-        HairStyler hairStyler1 = hairStylerTable.get(hairStyler.getName());
+        HairStyler hairStyler1 = hairStylerTable.save(hairStyler);
         return hairStyler1;
     }
 
     @Override
     public HairStyler update(HairStyler hairStyler) {
-        hairStylerTable.put(hairStyler.getName(),hairStyler);
-        HairStyler hairStyler1 = hairStylerTable.get(hairStyler.getName());
+        HairStyler hairStyler1 = hairStylerTable.save(hairStyler);
         return hairStyler1;
     }
 
     @Override
     public void delete(String s) {
-        hairStylerTable.remove(s);
+        hairStylerTable.deleteById(s);
 
     }
 
     @Override
     public HairStyler read(String s) {
-        HairStyler hairStyler = hairStylerTable.get(s);
-        return hairStyler;
+        Optional<HairStyler> hairStyler = this.hairStylerTable.findById(s);
+        return hairStyler.orElse(null);
     }
 }

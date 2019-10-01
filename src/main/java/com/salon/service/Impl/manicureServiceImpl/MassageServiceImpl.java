@@ -1,20 +1,23 @@
 package com.salon.service.Impl.manicureServiceImpl;
 
 import com.salon.domain.manicure.Massage;
+import com.salon.repositories.manicureRepository.MassageRepository;
 import com.salon.service.manicureService.MassageService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class MassageServiceImpl implements MassageService {
 
     private static MassageServiceImpl service = null;
-    private Map<String[],Massage> massageTable;
+    @Autowired
+    private MassageRepository massageTable;
 
     private MassageServiceImpl() {
-        massageTable = new HashMap<>();
 
     }
     public static MassageService getService(){
@@ -24,32 +27,30 @@ public class MassageServiceImpl implements MassageService {
 
     @Override
     public Set<Massage> getAll() {
-        return null;
+        return (Set<Massage>) this.massageTable.findAll();
     }
 
     @Override
     public Massage create(Massage massage) {
-        massageTable.put(massage.getTypes(),massage);
-        Massage massage1 = massageTable.get(massage.getTypes());
+        Massage massage1 = massageTable.save(massage);
         return massage1;
     }
 
     @Override
     public Massage update(Massage massage) {
-        massageTable.put(massage.getTypes(),massage);
-        Massage massage1 = massageTable.get(massage.getTypes());
+        Massage massage1 = massageTable.save(massage);
         return massage1;
     }
 
     @Override
     public void delete(String[] s) {
-        massageTable.remove(s);
+        massageTable.deleteById(s);
 
     }
 
     @Override
     public Massage read(String[] s) {
-        Massage massage = massageTable.get(s);
-        return massage;
+        Optional<Massage> optGender = this.massageTable.findById(s);
+        return optGender.orElse(null);
     }
 }

@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.staffImpl;
 
 import com.salon.domain.staff.Cleaners;
@@ -8,7 +9,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 @Repository
-public class CleanersRepositoryImpl implements CleanersRepository {
+public class */
+/**//*
+CleanersRepositoryImpl implements CleanersRepository {
 
     private static CleanersRepositoryImpl repository = null;
     private Map<String,Cleaners> cleanersTable;
@@ -53,3 +56,4 @@ public class CleanersRepositoryImpl implements CleanersRepository {
         return cleaners;
     }
 }
+*/

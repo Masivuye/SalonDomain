@@ -18,8 +18,8 @@ public class PaymentController {
 
     @GetMapping("/create{question}")
     public @ResponseBody
-    Payment create(@PathVariable boolean question){
-        Payment payment = PaymentFactory.getPayment(question);
+    Payment create(@PathVariable String type){
+        Payment payment = PaymentFactory.getPayment(type);
         return paymentService.create(payment);
     }
 

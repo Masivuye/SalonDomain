@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.hairImpl;
 
 import com.salon.domain.hair.BoysCut;
@@ -53,3 +54,4 @@ public class BoysCutRepositoryImpl implements BoysCutRepository {
         return boysCut;
     }
 }
+*/

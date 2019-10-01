@@ -1,21 +1,23 @@
 package com.salon.service.Impl.paymentServiceImpl;
 
 import com.salon.domain.payment.Cheque;
+import com.salon.repositories.paymentRepository.ChequeRepository;
 import com.salon.service.paymentService.ChequeService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class ChequeServiceImpl implements ChequeService {
 
     private static ChequeServiceImpl service = null;
-    private Map<Double,Cheque> chequeTable;
+    @Autowired
+    private ChequeRepository chequeTable;
 
     private ChequeServiceImpl() {
-        chequeTable = new HashMap<>();
-
     }
     public static ChequeService getService(){
         if(service == null) service = new ChequeServiceImpl();
@@ -24,32 +26,30 @@ public class ChequeServiceImpl implements ChequeService {
 
     @Override
     public Set<Cheque> getAll() {
-        return null;
+        return (Set<Cheque>) this.chequeTable.findAll();
     }
 
     @Override
     public Cheque create(Cheque cheque) {
-        chequeTable.put(cheque.getBalance(0.0),cheque);
-        Cheque cheque1 = chequeTable.get(cheque.getBalance(0.0));
+        Cheque cheque1 = chequeTable.save(cheque);
         return cheque1;
     }
 
     @Override
     public Cheque update(Cheque cheque) {
-        chequeTable.put(cheque.getBalance(0.0),cheque);
-        Cheque cheque1 = chequeTable.get(cheque.getBalance(0.0));
+        Cheque cheque1 = chequeTable.save(cheque);
         return cheque1;
     }
 
     @Override
-    public void delete(Double aDouble) {
-        chequeTable.remove(aDouble);
+    public void delete(String a) {
+        chequeTable.deleteById(a);
 
     }
 
     @Override
-    public Cheque read(Double aDouble) {
-        Cheque cheque = chequeTable.get(aDouble);
-        return cheque;
+    public Cheque read(String s) {
+        Optional<Cheque> cheque= this.chequeTable.findById(s);
+        return cheque.orElse(null);
     }
 }

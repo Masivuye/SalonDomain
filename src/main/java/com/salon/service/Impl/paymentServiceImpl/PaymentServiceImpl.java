@@ -1,19 +1,23 @@
 package com.salon.service.Impl.paymentServiceImpl;
 
 import com.salon.domain.payment.Payment;
+import com.salon.repositories.paymentRepository.PaymentRepository;
 import com.salon.service.paymentService.PaymentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class PaymentServiceImpl implements PaymentService {
 
     private static PaymentServiceImpl service = null;
-    private Map<Boolean,Payment> paymentTable;
+    @Autowired
+    private PaymentRepository paymentTable;
 
-    private PaymentServiceImpl() { paymentTable = new HashMap<>();
+    private PaymentServiceImpl() {
 
     }
     public static PaymentService getService(){
@@ -23,32 +27,30 @@ public class PaymentServiceImpl implements PaymentService {
 
     @Override
     public Set<Payment> getAll() {
-        return null;
+        return (Set<Payment>) this.paymentTable.findAll();
     }
 
     @Override
     public Payment create(Payment payment) {
-        paymentTable.put(payment.getQuestion(),payment);
-        Payment payment1 = paymentTable.get(payment.getQuestion());
+        Payment payment1 = paymentTable.save(payment);
         return payment1;
     }
 
     @Override
     public Payment update(Payment payment) {
-        paymentTable.put(payment.getQuestion(),payment);
-        Payment payment1 = paymentTable.get(payment.getQuestion());
+        Payment payment1 = paymentTable.save(payment);
         return payment1;
     }
 
     @Override
-    public void delete(Boolean aBoolean) {
-        paymentTable.remove(paymentTable.isEmpty());
+    public void delete(String a) {
+        this.paymentTable.deleteById(a);
 
     }
 
     @Override
-    public Payment read(Boolean aBoolean) {
-        Payment payment = (Payment) getAll();
-        return payment;
+    public Payment read(String s) {
+        Optional<Payment> payment = this.paymentTable.findById(s);
+        return payment.orElse(null);
     }
 }

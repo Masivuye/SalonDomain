@@ -1,11 +1,14 @@
 package com.salon.domain.staff;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Cleaners {
     private String name;
+    @Id
     private int clnNum;
 
     private Set<Staff> staff;

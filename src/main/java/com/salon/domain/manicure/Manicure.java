@@ -4,11 +4,14 @@ package com.salon.domain.manicure;
 import com.salon.domain.booking.Customer;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Arrays;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Manicure {
     private String[] colors;
+    @Id
     private String[] types;
 
 

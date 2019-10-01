@@ -1,11 +1,14 @@
 package com.salon.domain.manicure;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Arrays;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Nails {
+    @Id
     private String[] shapes;
     private String[] colors;
 

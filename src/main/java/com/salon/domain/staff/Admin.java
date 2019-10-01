@@ -2,12 +2,15 @@ package com.salon.domain.staff;
 
 import com.salon.domain.orders.Order;
 import com.salon.domain.payment.Payment;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
-@EntityScan
+@Entity
 public class Admin  {
     private String name;
+    @Id
     private int Adnum;
 
     private Set<Order> orders;

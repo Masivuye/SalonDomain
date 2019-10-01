@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.hairImpl;
 
 
@@ -54,3 +55,4 @@ public class GirlsHairRepositoryImpl implements GirlsHairRepository {
         return girlsHair;
     }
 }
+*/

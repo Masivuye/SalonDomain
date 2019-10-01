@@ -1,21 +1,23 @@
 package com.salon.service.Impl.paymentServiceImpl;
 
 import com.salon.domain.payment.CashPayment;
+import com.salon.repositories.paymentRepository.CashPaymentRepository;
 import com.salon.service.paymentService.CashPaymentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class CashPaymentServiceImpl implements CashPaymentService {
 
     private static CashPaymentServiceImpl service = null;
-    private Map<Double,CashPayment> cashPaymentTable;
+    @Autowired
+    private CashPaymentRepository cashPaymentTable;
 
     private CashPaymentServiceImpl() {
-        cashPaymentTable = new HashMap<>();
-
     }
     public static CashPaymentService getService(){
         if(service == null) service = new CashPaymentServiceImpl();
@@ -24,32 +26,30 @@ public class CashPaymentServiceImpl implements CashPaymentService {
 
     @Override
     public Set<CashPayment> getAll() {
-        return null;
+        return (Set<CashPayment>) this.cashPaymentTable.findAll();
     }
 
     @Override
     public CashPayment create(CashPayment cashPayment) {
-        cashPaymentTable.put(cashPayment.getAmount(0.0),cashPayment);
-        CashPayment cashPayment1 = cashPaymentTable.get(cashPayment.getAmount(0.0));
+        CashPayment cashPayment1 = cashPaymentTable.save(cashPayment);
         return cashPayment1;
     }
 
     @Override
     public CashPayment update(CashPayment cashPayment) {
-        cashPaymentTable.put(cashPayment.getAmount(0.0),cashPayment);
-        CashPayment cashPayment1 = cashPaymentTable.get(cashPayment.getAmount(0.0));
+        CashPayment cashPayment1 = cashPaymentTable.save(cashPayment);
         return cashPayment1;
     }
 
     @Override
-    public void delete(Double aDouble) {
-        cashPaymentTable.remove(aDouble);
+    public void delete(String s) {
+        cashPaymentTable.deleteById(s);
 
     }
 
     @Override
-    public CashPayment read(Double aDouble) {
-        CashPayment cashPayment = cashPaymentTable.get(aDouble);
-        return cashPayment;
+    public CashPayment read(String s) {
+        Optional<CashPayment> cashPayment = this.cashPaymentTable.findById(s);
+        return cashPayment.orElse(null);
     }
 }

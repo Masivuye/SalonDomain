@@ -25,6 +25,6 @@ public class PromotionsController {
     @GetMapping("/getAll")
     @ResponseBody
     public Set<Promotions> getAll(){
-        return promotionsService.getAll();
+        return (Set<Promotions>) promotionsService.getAll();
     }
 }

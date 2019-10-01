@@ -2,116 +2,359 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e10c00ac-2e56-4e2a-8a03-774e05664991" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/hairController/PromotionsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/hairController/PromotionsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/paymentController/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/controller/staffController/HairStylerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/security/SalonSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/BookingControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/BookingControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/CustomerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/CustomerControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/BoysCutControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/BoysCutControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/GirlsHairControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/GirlsHairControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/HairStyleControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/HairStyleControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/PromotionsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/PromotionsControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/FullMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/FullMassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/ManicureControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/ManicureControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/MassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/MassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/NailsControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/NailsControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/UpperMassageControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/UpperMassageControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/ImportSupplierControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/ImportSupplierControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/LocalSupplierControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/LocalSupplierControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/OrderControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/OrderControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/SupplierControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/SupplierControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CardPaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CardPaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CashPaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CashPaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/ChequeControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/ChequeControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CreditControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CreditControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/DebitControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/DebitControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/PaymentControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/PaymentControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/AdminControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/AdminControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/CleanersControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/CleanersControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/HairStylerControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/HairStylerControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/StaffControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/StaffControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/BookingFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/BookingFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/CustomerFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/CustomerFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/BoysCutFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/BoysCutFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/GirlsHairFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/GirlsHairFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/HairStyleFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/HairStyleFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/PromotionsFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/PromotionsFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/FullMassageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/FullMassageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/ManicureFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/ManicureFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/MassageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/MassageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/NailsFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/NailsFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/UpperMassageFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/UpperMassageFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/ImportSupplierFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/ImportSupplierFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/LocalSuppliersFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/LocalSuppliersFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/OrderFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/OrderFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/SupplierFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/SupplierFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CardPaymentFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CardPaymentFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CashPaymentFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CashPaymentFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/ChequeFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/ChequeFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CreditFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CreditFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/DebitFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/DebitFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/PaymentFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/PaymentFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/repositoty/BookingRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/repositoty/BookingRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/AdminFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/AdminFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/CleanersFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/CleanersFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/HairStylerFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/HairStylerFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/StaffFactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/StaffFactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/BoysCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/BoysCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/GirlsHair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/GirlsHair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/HairStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/HairStyle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/Promotions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/hair/Promotions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/FullMassage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/FullMassage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Manicure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Manicure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Massage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Massage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Nails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Nails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/ImportSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/ImportSupplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/LocalSuppliers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/LocalSuppliers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/orders/Supplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/CardPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/CashPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/CashPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Cheque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Cheque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Credit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Credit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Debit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Debit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/payment/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Cleaners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Cleaners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/HairStyler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/HairStyler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/domain/staff/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/factory/paymentFactory/PaymentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/factory/paymentFactory/PaymentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/bookingRepository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/bookingRepository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/bookingRepository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/bookingRepository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/BoysCutRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/BoysCutRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/GirlsHairRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/GirlsHairRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/HairStyleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/HairStyleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/PromotionsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/hairRepository/PromotionsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/FullMassageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/FullMassageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/ManicureRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/ManicureRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/MassageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/MassageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/NailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/NailsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/UpperMassageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/manicureRepository/UpperMassageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/ImportSupplierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/ImportSupplierRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/LocalSupplierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/LocalSupplierRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/SupplierRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/ordersRepository/SupplierRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/CardPaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/CardPaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/CashPaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/CashPaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/ChequeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/ChequeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/CreditRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/CreditRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/DebitRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/DebitRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/paymentRepository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/AdminRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/CleanersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/CleanersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/HairStylerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/HairStylerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/StaffRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/repositories/staffRepository/StaffRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/hairService/PromotionsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/hairService/PromotionsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CardPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CardPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CashPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CashPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/ChequeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/ChequeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CreditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/CreditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/DebitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/DebitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/paymentService/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/HairStylerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/salon/service/staffService/HairStylerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/salon.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/PromotionsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/hairController/PromotionsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/paymentController/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/HairStylerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/controller/staffController/HairStylerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Booking.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/booking/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/BoysCut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/GirlsHair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/HairStyle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/hair/Promotions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/FullMassage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Manicure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Massage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/manicure/Nails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/ImportSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/LocalSuppliers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/orders/Supplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CardPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/CashPayment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Cheque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Credit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Debit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/payment/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Cleaners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/HairStyler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/domain/staff/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/PaymentFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/factory/paymentFactory/PaymentFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/BookingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/BookingRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/bookingRepository/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/BoysCutRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/GirlsHairRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/HairStyleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/HairStyleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/PromotionsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/hairRepository/PromotionsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/FullMassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/FullMassageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/ManicureRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/ManicureRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/MassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/MassageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/NailsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/NailsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/UpperMassageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/manicureRepository/UpperMassageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/ImportSupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/ImportSupplierRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/LocalSupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/LocalSupplierRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/SupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/ordersRepository/SupplierRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CardPaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CardPaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CashPaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CashPaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/ChequeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/ChequeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CreditRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/CreditRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/DebitRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/DebitRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/paymentRepository/PaymentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/AdminRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/AdminRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/CleanersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/CleanersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/HairStylerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/HairStylerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/StaffRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/repositories/staffRepository/StaffRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/PromotionsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/hairService/PromotionsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CardPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CardPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CashPaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CashPaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/ChequeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/ChequeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CreditService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/CreditService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/DebitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/DebitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/paymentService/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/HairStylerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/salon/service/staffService/HairStylerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/BookingControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/booking/CustomerControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/BoysCutControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/GirlsHairControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/HairStyleControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/hair/PromotionsControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/FullMassageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/ManicureControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/MassageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/NailsControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/manicure/UpperMassageControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/ImportSupplierControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/LocalSupplierControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/OrderControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/orders/SupplierControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CardPaymentControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CashPaymentControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/ChequeControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/CreditControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/DebitControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/payment/PaymentControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/AdminControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/CleanersControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/HairStylerControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/controller/staff/StaffControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/BookingFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/bookingFactoryTest/CustomerFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/BoysCutFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/GirlsHairFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/HairStyleFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/hairFactoryTest/PromotionsFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/FullMassageFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/ManicureFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/MassageFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/NailsFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/manicureFactoryTest/UpperMassageFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/ImportSupplierFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/LocalSuppliersFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/OrderFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/ordersFactoryTest/SupplierFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CardPaymentFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CashPaymentFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/ChequeFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/CreditFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/DebitFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/paymentFactoryTest/PaymentFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/repositoty/BookingRepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/AdminFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/CleanersFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/HairStylerFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/factory/staffFactoryTest/StaffFactoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/BookingRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/BoysCutRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/GirlsHairRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/HairStyleRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/LocalSupplierRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/OrderRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/orderImpl/SupplierRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/CreditRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/DebitRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/AdminRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/CleanersRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/HairStylerRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/repositories/impl/staffImpl/StaffRepositoryImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/BookingServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/BoysCutServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/GirlsHairServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/HairStyleServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/hairServiceImpl/PromotionsServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/ImportSupplierServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/LocalSupplierServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/OrderServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/ordersServiceImpl/SupplierServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/CleanersServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/HairStylerServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/salon/service/Impl/staffServiceImpl/StaffServiceImplTest.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,43 +363,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -175,63 +381,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/manicure/MassageControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/manicure/NailsControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/manicure/UpperMassageControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/orders/ImportSupplierControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/orders/LocalSupplierControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/orders/OrderControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/orders/SupplierControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/payment/CardPaymentControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/payment/CashPaymentControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/payment/ChequeControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/payment/CreditControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/payment/DebitControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/payment/PaymentControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/AdminControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/CleanersControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/HairStylerControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/staff/StaffControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/CardPaymentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/CashPaymentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/ChequeRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/CreditRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/DebitRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/paymentImpl/PaymentRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/CardPaymentServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/SecurityApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/SecutiryApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/security/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/security/SalonSecurity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -239,79 +388,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="678" />
-    <option name="height" value="747" />
-  </component>
+  <component name="ProjectId" id="1RanWGtzSjVcw8cpCDjTbSW01T8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="salon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="salon" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="booking" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -324,7 +403,13 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557749279259" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/payroll-master/payroll-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -520,6 +605,7 @@
       <workItem from="1569832678640" duration="1981000" />
       <workItem from="1569841918896" duration="461000" />
       <workItem from="1569843022872" duration="1093000" />
+      <workItem from="1569914109031" duration="18096000" />
     </task>
     <servers />
   </component>
@@ -555,9 +641,6 @@
       <configuration name="com.salon.controller in salon" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303337000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -567,84 +650,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2753404" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49848714" weight="0.5130568" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50226927" side_tool="true" visible="true" weight="0.09831029" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31182796" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39938557" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32872504" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32872504" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4977307" visible="true" weight="0.09831029" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.2753404" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49848714" weight="0.5130568" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5015129" side_tool="true" weight="0.32565284" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31182796" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.39938557" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3287037" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32872504" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32872504" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.34715822" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -669,394 +687,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/CashPaymentServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/ChequeServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/CreditServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/CreditServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/DebitServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/DebitServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/paymentServiceImpl/PaymentServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Manicure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/FullMassageRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/MassageServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding>
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Massage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/ManicureServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-          <folding>
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/hairImpl/PromotionsRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/manicure/Nails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/MassageRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="51" column="45" lean-forward="true" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-          <folding>
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/NailsRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
-          <folding>
-            <element signature="e#839#840#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/NailsServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/UpperMassageServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/manicureServiceImpl/FullMassageServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/ManicureRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/staffServiceImpl/AdminServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/manicureImpl/UpperMassageRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/orders/ImportSupplier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/bookingImpl/CustomerRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/orderImpl/ImportSupplierRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/hairService/BoysCutService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/IRepository/IRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/bookingRepository/BookingRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/bookingServiceImpl/BookingServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/Impl/bookingServiceImpl/BookingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/serviceInterface/ServiceInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/service/bookingService/BookingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/service/Impl/bookingServiceImpl/CustomerServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/controller/booking/BookingControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/salon/factory/bookingFactoryTest/BookingFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/factory/bookingFactory/BookingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/factory/bookingFactory/CustomerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SecurityApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SecutiryApp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-          <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/controller/bookingController/BookingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/repositories/impl/bookingImpl/BookingRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/security/SalonSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/SalonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/salon/domain/booking/Booking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

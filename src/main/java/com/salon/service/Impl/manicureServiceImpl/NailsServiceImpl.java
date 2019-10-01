@@ -1,20 +1,24 @@
 package com.salon.service.Impl.manicureServiceImpl;
 
 import com.salon.domain.manicure.Nails;
+import com.salon.repositories.manicureRepository.NailsRepository;
 import com.salon.service.manicureService.NailsService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class NailsServiceImpl implements NailsService {
 
     private static NailsServiceImpl service = null;
-    private Map<String[],Nails> nailsTable;
+    @Autowired
+    private NailsRepository nailsTable;
 
     private NailsServiceImpl() {
-        nailsTable = new HashMap<>();
+
 
     }
     public static NailsService getService(){
@@ -24,32 +28,30 @@ public class NailsServiceImpl implements NailsService {
 
     @Override
     public Set<Nails> getAll() {
-        return null;
+        return (Set<Nails>) this.nailsTable.findAll();
     }
 
     @Override
     public Nails create(Nails nails) {
-        nailsTable.put(nails.getColors(),nails);
-        Nails nails1 = nailsTable.get(nails.getColors());
+        Nails nails1 = nailsTable.save(nails);
         return nails1;
     }
 
     @Override
     public Nails update(Nails nails) {
-        nailsTable.put(nails.getColors(),nails);
-        Nails nails1 = nailsTable.get(nails.getColors());
+        Nails nails1 = nailsTable.save(nails);
         return nails1;
     }
 
     @Override
     public void delete(String[] strings) {
-        nailsTable.remove(strings);
+        nailsTable.deleteById(strings);
 
     }
 
     @Override
-    public Nails read(String[] strings) {
-        Nails nails = nailsTable.get(strings);
-        return nails;
+    public Nails read(String[] s) {
+        Optional<Nails> nails = this.nailsTable.findById(s);
+        return nails.orElse(null);
     }
 }

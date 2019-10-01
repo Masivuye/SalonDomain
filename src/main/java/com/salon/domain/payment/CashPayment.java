@@ -1,10 +1,13 @@
 package com.salon.domain.payment;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Set;
-@EntityScan
+@Entity
 public class CashPayment {
+    @Id
     private double amount;
 
 

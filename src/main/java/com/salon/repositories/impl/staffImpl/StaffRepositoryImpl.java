@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.staffImpl;
 
 import com.salon.domain.staff.Staff;
@@ -7,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-@Repository
+@Repository*/
+/**//*
 public class StaffRepositoryImpl implements StaffRepository{
 
     private static StaffRepositoryImpl repository = null;
@@ -54,3 +56,4 @@ public class StaffRepositoryImpl implements StaffRepository{
         return staff;
     }
 }
+*/

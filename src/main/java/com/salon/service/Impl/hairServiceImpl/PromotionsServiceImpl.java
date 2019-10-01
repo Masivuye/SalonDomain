@@ -2,20 +2,23 @@ package com.salon.service.Impl.hairServiceImpl;
 
 
 import com.salon.domain.hair.Promotions;
+import com.salon.repositories.hairRepository.PromotionsRepository;
 import com.salon.service.hairService.PromotionsService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.List;
+import java.util.Optional;
+
 @Service
 public class PromotionsServiceImpl implements PromotionsService {
 
     private static PromotionsServiceImpl service = null;
-    private Map<String[],Promotions> promotionsTable;
+    @Autowired
+    private PromotionsRepository promotionsTable;
 
     private PromotionsServiceImpl() {
-        promotionsTable = new HashMap<>();
+
 
     }
     public static PromotionsService getService(){
@@ -25,33 +28,31 @@ public class PromotionsServiceImpl implements PromotionsService {
 
 
     @Override
-    public Set<Promotions> getAll() {
-        return null;
+    public List<Promotions> getAll() {
+        return this.promotionsTable.findAll();
     }
 
     @Override
     public Promotions create(Promotions promotions) {
-        promotionsTable.put(promotions.getProducts(),promotions);
-        Promotions promotions1 = promotionsTable.get(promotions.getProducts());
+        Promotions promotions1 = promotionsTable.save(promotions);
         return promotions1;
     }
 
     @Override
     public Promotions update(Promotions promotions) {
-        promotionsTable.put(promotions.getProducts(),promotions);
-        Promotions promotions1 = promotionsTable.get(promotions.getProducts());
+        Promotions promotions1 = promotionsTable.save(promotions);
         return promotions1;
     }
 
     @Override
     public void delete(String[] s) {
-        promotionsTable.remove(s);
+        promotionsTable.deleteById(s);
 
     }
 
     @Override
     public Promotions read(String[] s) {
-        Promotions promotions = promotionsTable.get(s);
-        return promotions;
+        Optional<Promotions> promotions = this.promotionsTable.findById(s);
+        return promotions.orElse(null);
     }
 }

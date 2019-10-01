@@ -25,6 +25,6 @@ public class HairStylerController {
     @GetMapping("/getAll")
     @ResponseBody
     public Set<HairStyler> getAll(){
-        return hairStylerService.getAll();
+        return (Set<HairStyler>) hairStylerService.getAll();
     }
 }

@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.manicureImpl;
 
 import com.salon.domain.manicure.Manicure;
@@ -7,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-@Repository
+@Repository*/
+/**//*
 public class ManicureRepositoryImpl implements ManicureRepository {
 
     private static ManicureRepositoryImpl repository = null;
@@ -53,3 +55,4 @@ public class ManicureRepositoryImpl implements ManicureRepository {
         return manicure;
     }
 }
+*/

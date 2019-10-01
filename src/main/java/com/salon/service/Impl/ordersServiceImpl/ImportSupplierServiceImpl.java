@@ -1,20 +1,23 @@
 package com.salon.service.Impl.ordersServiceImpl;
 
 import com.salon.domain.orders.ImportSupplier;
+import com.salon.repositories.ordersRepository.ImportSupplierRepository;
 import com.salon.service.ordersService.ImportSupplierService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class ImportSupplierServiceImpl implements ImportSupplierService {
 
     private static ImportSupplierServiceImpl service = null;
-    private Map<Integer,ImportSupplier> importSupplierTable;
+    @Autowired
+    private ImportSupplierRepository importSupplierTable;
 
     private ImportSupplierServiceImpl() {
-        importSupplierTable = new HashMap<>();
 
     }
     public static ImportSupplierService getService(){
@@ -24,32 +27,30 @@ public class ImportSupplierServiceImpl implements ImportSupplierService {
 
     @Override
     public Set<ImportSupplier> getAll() {
-        return null;
+        return (Set<ImportSupplier>) this.importSupplierTable.findAll();
     }
 
     @Override
     public ImportSupplier create(ImportSupplier importSupplier) {
-        importSupplierTable.put(importSupplier.getShipedNum(),importSupplier);
-        ImportSupplier importSupplier1 = importSupplierTable.get(importSupplier.getShipedNum());
+        ImportSupplier importSupplier1 = importSupplierTable.save(importSupplier);
         return importSupplier1;
     }
 
     @Override
     public ImportSupplier update(ImportSupplier importSupplier) {
-        importSupplierTable.put(importSupplier.getShipedNum(),importSupplier);
-        ImportSupplier importSupplier1 = importSupplierTable.get(importSupplier.getShipedNum());
+        ImportSupplier importSupplier1 = importSupplierTable.save(importSupplier);
         return importSupplier1;
     }
 
     @Override
     public void delete(Integer num) {
-        importSupplierTable.remove(num);
+        importSupplierTable.deleteById(num);
 
     }
 
     @Override
-    public ImportSupplier read(Integer num) {
-        ImportSupplier importSupplier = importSupplierTable.get(num);
-        return importSupplier;
+    public ImportSupplier read(Integer s) {
+        Optional<ImportSupplier> importSupplier = this.importSupplierTable.findById(s);
+        return importSupplier.orElse(null);
     }
 }

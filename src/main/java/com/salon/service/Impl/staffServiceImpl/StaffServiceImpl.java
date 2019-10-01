@@ -1,20 +1,23 @@
 package com.salon.service.Impl.staffServiceImpl;
 
 import com.salon.domain.staff.Staff;
+import com.salon.repositories.staffRepository.StaffRepository;
 import com.salon.service.staffService.StaffService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class StaffServiceImpl implements StaffService {
 
     private static StaffServiceImpl service = null;
-    private Map<String[], Staff> staffTable;
+    @Autowired
+    private StaffRepository staffTable;
 
     private StaffServiceImpl() {
-        staffTable = new HashMap<String[], Staff>();
 
     }
     public static StaffService getService(){
@@ -24,33 +27,30 @@ public class StaffServiceImpl implements StaffService {
 
     @Override
     public Set<Staff> getAll() {
-        return null;
+        return (Set<Staff>) this.staffTable.findAll();
     }
 
     @Override
     public Staff create(Staff staff) {
-        staffTable.put(staff.getName(),staff);
-        Staff staff1 = staffTable.get(staff.getName());
+        Staff staff1 = staffTable.save(staff);
         return staff1;
     }
 
     @Override
     public Staff update(Staff staff) {
-        staffTable.put(staff.getName(),staff);
-        Staff staff1 = staffTable.get(staff.getName());
+        Staff staff1 = staffTable.save(staff);
         return staff1;
     }
 
     @Override
     public void delete(String[] s) {
-        staffTable.remove(s);
+        staffTable.deleteById(s);
 
     }
 
     @Override
     public Staff read(String[] s) {
-        Staff staff = (Staff) getAll();
-
-        return staff;
+        Optional<Staff> staff = this.staffTable.findById(s);
+        return staff.orElse(null);
     }
 }

@@ -1,20 +1,23 @@
 package com.salon.service.Impl.paymentServiceImpl;
 
 import com.salon.domain.payment.Debit;
+import com.salon.repositories.paymentRepository.DebitRepository;
 import com.salon.service.paymentService.DebitService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 @Service
 public class DebitServiceImpl implements DebitService {
 
     private static DebitServiceImpl service = null;
-    private Map<Double,Debit> debitTable;
+    @Autowired
+    private DebitRepository debitTable;
 
     private DebitServiceImpl() {
-        debitTable = new HashMap<>();
 
     }
     public static DebitService getService(){
@@ -24,33 +27,30 @@ public class DebitServiceImpl implements DebitService {
 
     @Override
     public Set<Debit> getAll() {
-        return null;
+        return (Set<Debit>) this.debitTable.findAll();
     }
 
     @Override
     public Debit create(Debit debit) {
-        debitTable.put(debit.getBalance(0.0),debit);
-        Debit debit1 = debitTable.get(debit.getBalance(0.0));
+        Debit debit1 = debitTable.save(debit);
         return debit1;
     }
 
     @Override
     public Debit update(Debit debit) {
-        debitTable.put(debit.getBalance(0.0),debit);
-        Debit debit1 = debitTable.get(debit.getBalance(0.0));
+        Debit debit1 = debitTable.save(debit);
         return debit1;
     }
 
     @Override
-    public void delete(Double aDouble) {
-        debitTable.remove(aDouble);
+    public void delete(String a) {
+        debitTable.deleteById(a);
 
     }
 
     @Override
-    public Debit read(Double aDouble)
-    {
-        Debit debit = debitTable.get(aDouble);
-        return debit;
+    public Debit read(String s) {
+        Optional<Debit> debit = this.debitTable.findById(s);
+        return debit.orElse(null);
     }
 }

@@ -1,3 +1,4 @@
+/*
 package com.salon.repositories.impl.hairImpl;
 
 import com.salon.domain.hair.HairStyle;
@@ -7,7 +8,8 @@ import org.springframework.stereotype.Repository;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
-@Repository
+@Repository*/
+/**//*
 public class HairStyleRepositoryImpl implements HairStyleRepository {
 
     private static HairStyleRepositoryImpl repository = null;
@@ -54,3 +56,4 @@ public class HairStyleRepositoryImpl implements HairStyleRepository {
         return hairStyle;
     }
 }
+*/

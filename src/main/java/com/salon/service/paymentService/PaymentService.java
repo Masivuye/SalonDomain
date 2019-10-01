@@ -5,6 +5,6 @@ import com.salon.service.serviceInterface.ServiceInterface;
 
 import java.util.Set;
 
-public interface PaymentService extends ServiceInterface<Payment,Boolean> {
+public interface PaymentService extends ServiceInterface<Payment,String> {
     Set<Payment> getAll();
 }
