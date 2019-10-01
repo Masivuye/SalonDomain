@@ -28,7 +28,7 @@ public class BookingServiceImplTest {
     public void setUp() throws Exception {
         Calendar cal = Calendar.getInstance();
         Date date = cal.getTime();
-        this.repository = BookingRepositoryImpl.getRepository();
+       // this.repository = BookingRepositoryImpl.getRepository();
 
 
     @Test
