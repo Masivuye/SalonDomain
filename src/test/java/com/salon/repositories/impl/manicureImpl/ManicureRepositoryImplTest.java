@@ -9,6 +9,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.Assert.*;
@@ -22,18 +23,18 @@ public class ManicureRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        this.repository = ManicureRepositoryImpl.getRepository();
+        //this.repository = ManicureRepositoryImpl.getRepository();
         this.manicure = ManicureFactory.getManicure(colors,types);
     }
 
     @Test
     public void getAll() {
-        Set<Manicure> manicures = this.repository.getAll();
+        Set<Manicure> manicures = ((Set<Manicure>) this.repository);
     }
 
     @Test
     public void create() {
-        Manicure created = this.repository.create(this.manicure);
+        Manicure created = this.repository.save(this.manicure);
         System.out.println("reated = "+created);
         getAll();
         assertEquals(created,this.manicure);
@@ -45,14 +46,14 @@ public class ManicureRepositoryImplTest {
         String[] types = {"UpperMassage,FullMassage"};
         Manicure updated = new Manicure.Builder().types(types).build();
         System.out.println("to be updated = "+manicure.getTypes());
-        this.repository.update(updated);
+        this.repository.save(updated);
         assertArrayEquals(types,updated.getTypes());
         getAll();
     }
 
     @Test
     public void delete() {
-        this.repository.delete(manicure.getTypes());
+        this.repository.deleteById(colors);
         getAll();
     }
 
@@ -61,7 +62,7 @@ public class ManicureRepositoryImplTest {
         String[] colors = {"blue,green"};
         String[] types = {"UpperMassage,FullMassage"};
         System.out.println("In reading = "+manicure.getTypes());
-        Manicure read = this.repository.read(manicure.getTypes());
+        Optional<Manicure> read = this.repository.findById(colors);
         System.out.println("In read , read = "+read);
         getAll();
         assertNotEquals(manicure,read);

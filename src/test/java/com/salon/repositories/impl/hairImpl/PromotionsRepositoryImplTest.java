@@ -18,18 +18,18 @@ public class PromotionsRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        this.repository =  PromotionsRepositoryImpl.getRepository();
+       // this.repository =  PromotionsRepositoryImpl.getRepository();
         this.promotions = PromotionsFactory.getPromotions(products);
     }
 
     @Test
     public void getAll() {
-        Set<Promotions> promotions = this.repository.getAll();
+        Set<Promotions> promotions = ((Set<Promotions>) this.repository);
     }
 
     @Test
     public void create() {
-        Promotions created = this.repository.create(this.promotions);
+        Promotions created = this.repository.save(this.promotions);
         System.out.println("reated = "+created);
         getAll();
         assertEquals(created,this.promotions);
@@ -40,22 +40,22 @@ public class PromotionsRepositoryImplTest {
         String[] products = {"Revlon,Relaxer lotion"};
         Promotions updated = new Promotions.Builder().types(products).build();
         System.out.println("to be updated = "+promotions.getProducts());
-        this.repository.update(updated);
+        this.repository.save(updated);
         assertArrayEquals(products,updated.getProducts());
         getAll();
     }
 
     @Test
     public void delete() {
-        this.repository.delete(promotions.getProducts());
+        this.repository.deleteById(products);
         getAll();
     }
 
     @Test
     public void read() {
-        String[] products = {"Revlon,Relaxer lotion"};
+
         System.out.println("In reading = "+promotions.getProducts());
-        Promotions read = this.repository.read(promotions.getProducts());
+        Promotions read = this.repository.save(promotions);
         System.out.println("In read , read = "+read);
         getAll();
         assertNotEquals(promotions,read);

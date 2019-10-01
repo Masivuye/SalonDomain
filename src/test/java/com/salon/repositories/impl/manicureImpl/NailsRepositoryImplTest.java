@@ -8,6 +8,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.Assert.*;
@@ -20,18 +21,18 @@ public class NailsRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        this.repository = NailsRepositoryImpl.getRepository();
+       // this.repository = NailsRepositoryImpl.getRepository();
         this.nails = NailsFactory.getNails(colors,shapes);
     }
 
     @Test
     public void getAll() {
-        Set<Nails> nails = this.repository.getAll();
+        Set<Nails> nails = (Set<Nails>) this.repository;
     }
 
     @Test
     public void create() {
-        Nails created = this.repository.create(this.nails);
+        Nails created = this.repository.save(this.nails);
         System.out.println("reated = "+created);
         getAll();
         assertEquals(created,this.nails);
@@ -43,14 +44,14 @@ public class NailsRepositoryImplTest {
         String[] types = {"UpperMassage,FullMassage"};
         Nails updated = new Nails.Builder().colors(colors).build();
         System.out.println("to be updated = "+nails.getColors());
-        this.repository.update(updated);
+        this.repository.save(updated);
         assertArrayEquals(colors,updated.getColors());
         getAll();
     }
 
     @Test
     public void delete() {
-        this.repository.delete(nails.getColors());
+        this.repository.deleteById(shapes);
         getAll();
     }
 
@@ -59,7 +60,7 @@ public class NailsRepositoryImplTest {
         String[] colors = {"blue,green"};
         String[] types = {"UpperMassage,FullMassage"};
         System.out.println("In reading = "+nails.getColors());
-        Nails read = this.repository.read(nails.getColors());
+        Optional<Nails> read = this.repository.findById(colors);
         System.out.println("In read , read = "+read);
         getAll();
         assertNotEquals(nails,read);

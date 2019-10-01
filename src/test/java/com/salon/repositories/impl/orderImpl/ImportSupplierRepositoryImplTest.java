@@ -19,13 +19,13 @@ public class ImportSupplierRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        this.repository = ImportSupplierRepositoryImpl.getRepository();
+        //this.repository = ImportSupplierRepositoryImpl.getRepository();
         this.importSupplier = ImportSupplierFactory.getImports("Shoprite",123);
     }
 
     @Test
     public void getAll() {
-        Set<ImportSupplier> importSuppliers = this.repository.getAll();
+        Set<ImportSupplier> importSuppliers = (Set<ImportSupplier>) this.repository;
     }
 
     @Test

@@ -8,6 +8,7 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.Assert.*;
@@ -20,18 +21,18 @@ public class MassageRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        this.repository = MassageRepositoryImpl.getRepository();
+       // this.repository = MassageRepositoryImpl.getRepository();
         this.massage = MassageFactory.getMassage(types);
     }
 
     @Test
     public void getAll() {
-        Set<Massage> massages = this.repository.getAll();
+        Set<Massage> massages = (Set<Massage>) this.repository;
     }
 
     @Test
     public void create() {
-        Massage created = this.repository.create(this.massage);
+        Massage created = this.repository.save(this.massage);
         System.out.println("reated = "+created);
         getAll();
         assertEquals(created,this.massage);
@@ -42,14 +43,14 @@ public class MassageRepositoryImplTest {
         String[] types = {"Revlon,Relaxer lotion"};
         Massage updated = new Massage.Builder().types(types).build();
         System.out.println("to be updated = "+massage.getTypes());
-        this.repository.update(updated);
+        this.repository.save(updated);
         assertArrayEquals(types,updated.getTypes());
         getAll();
     }
 
     @Test
     public void delete() {
-        this.repository.delete(massage.getTypes());
+        this.repository.deleteById(types);
         getAll();
     }
 
@@ -57,7 +58,7 @@ public class MassageRepositoryImplTest {
     public void read() {
         String[] products = {"Revlon,Relaxer lotion"};
         System.out.println("In reading = "+massage.getTypes());
-        Massage read = this.repository.read(massage.getTypes());
+        Optional<Massage> read = this.repository.findById(products);
         System.out.println("In read , read = "+read);
         getAll();
         assertNotEquals(massage,read);

@@ -20,18 +20,18 @@ public class FullMassageRepositoryImplTest {
 
     @Before
     public void setUp() throws Exception {
-        this.repository = FullMassageRepositoryImpl.getRepository();
+       // this.repository = FullMassageRepositoryImpl.getRepository();
         this.fullMassage = FullMassageFactory.getFullMassage(350.00);
     }
 
     @Test
     public void getAll() {
-        Set<FullMassage> fullMassages = this.repository.getAll();
+        Set<FullMassage> fullMassages = ((Set<FullMassage>) this.repository);
     }
 
     @Test
     public void create() {
-        FullMassage created = this.repository.create(this.fullMassage);
+        FullMassage created = this.repository.save(this.fullMassage);
         System.out.println("created = "+created);
         getAll();
         assertEquals(created,this.fullMassage);
@@ -42,14 +42,14 @@ public class FullMassageRepositoryImplTest {
 
         FullMassage updated = new FullMassage.Builder().price(500.00).build();
         System.out.println("to be updated = "+fullMassage.getPrice());
-        this.repository.update(updated);
+        this.repository.save(updated);
         assertEquals(500.00,updated.getPrice(),500.00);
         getAll();
     }
 
     @Test
     public void delete() {
-        this.repository.delete(fullMassage.getPrice());
+        this.repository.deleteById(0.0);
         getAll();
     }
 
@@ -57,7 +57,7 @@ public class FullMassageRepositoryImplTest {
     public void read() {
 
         System.out.println("In reading = "+fullMassage.getPrice());
-        FullMassage read = this.repository.read(fullMassage.getPrice());
+        FullMassage read = this.repository.save(fullMassage);
         System.out.println("In read , read = "+read);
         getAll();
         assertNotEquals(fullMassage,read);

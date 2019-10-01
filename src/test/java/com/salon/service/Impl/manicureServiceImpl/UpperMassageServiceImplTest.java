@@ -11,13 +11,14 @@ import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
+import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.Assert.*;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UpperMassageServiceImplTest {
 
-    private static UpperMassageService upperMassageService  = null;
+    private  UpperMassage upperMassage;
     private UpperMassageRepository repository;
 
     @Before
@@ -28,12 +29,12 @@ public class UpperMassageServiceImplTest {
 
     @Test
     public void getAll() {
-        Set<UpperMassage> upperMassages = ((Set<UpperMassage>) this.repository).findAll();
+        Set<UpperMassage> upperMassages = ((Set<UpperMassage>) this.repository);
     }
 
     @Test
     public void create() {
-        UpperMassage created = this.repository.save(create);
+        UpperMassage created = this.repository.save(upperMassage);
         System.out.println("created = "+created);
         getAll();
         assertEquals(created,this.upperMassage);
@@ -43,15 +44,15 @@ public class UpperMassageServiceImplTest {
     public void update() {
 
         UpperMassage updated = new UpperMassage.Builder().price(500.00).build();
-        System.out.println("to be updated = "+upperMassage.getPrice());
-        this.repository.update(updated);
+        System.out.println("to be updated = "+upperMassage);
+        this.repository.save(updated);
         assertEquals(500.00,updated.getPrice(),500.00);
         getAll();
     }
 
     @Test
     public void delete() {
-        this.repository.delete(upperMassage.getPrice());
+        this.repository.deleteById(0.0);
         getAll();
     }
 
@@ -59,7 +60,7 @@ public class UpperMassageServiceImplTest {
     public void read() {
 
         System.out.println("In reading = "+upperMassage.getPrice());
-        UpperMassage read = this.repository.read(upperMassage.getPrice());
+        Optional<UpperMassage> read = this.repository.findById(0.0);
         System.out.println("In read , read = "+read);
         getAll();
         assertNotEquals(upperMassage,read);
